@@ -6,7 +6,7 @@ window.onload = function() {
         var href = window.location.href;
         var includesKeywords = href.includes("/cn/homepage/") || href.includes("/cn/home/")|| href.includes("/cn/publications/") || href.includes("/cn/resources/")|| href.includes("/cn/link/")|| href.includes("/cn/archives/");
         if(includesKeywords) {
-            window.location.href = href.replace('/cn/', '/');
+            // window.location.href = href.replace('/cn/', '/');
         }
         else {
             window.location.href = "https://huangming98.github.io";
