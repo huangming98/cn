@@ -168,43 +168,6 @@ table th:nth-of-type(2) {
 <h3 id="会议论文"><a href="#会议论文" class="headerlink" title="会议论文"></a>会议论文</h3><p align="left"><font face="黑体" size="6" color="blue"></font></p><li><font face="黑体" size="6" color="blue">None </font></li><p></p>]]></content>
   </entry>
   <entry>
-    <title>数据集和算法代码</title>
-    <url>/resources/index.html</url>
-    <content><![CDATA[<h1 id="Datesets"><a href="#Datesets" class="headerlink" title="Datesets"></a>Datesets</h1><h3 id="1-集成调度数据集（integrated-production-and-distribution-scheduling-problem-IPDS）"><a href="#1-集成调度数据集（integrated-production-and-distribution-scheduling-problem-IPDS）" class="headerlink" title="1. 集成调度数据集（integrated production and distribution scheduling problem, IPDS）"></a>1. 集成调度数据集（integrated production and distribution scheduling problem, IPDS）</h3><p>引言：集成调度涉及生产和配送两个阶段的优化。单独来说，生产调度或配送调度的科学研究比较丰富，有丰富的基准案例数据集以及优秀的求解算法。<strong>可是生产与配送集成调度的研究却在基准案例数据集这方面显得十分匮乏</strong>。出于对该问题的复杂性和特殊性的考虑，大部分研究采用随机生成（或部分随即生成）测试实例的方式进行数值实验，但很少有研究将其测试数据集公布出来以供大家使用和验证。为了给相同或者相近的研究提供统一评价对比和度量的基准，推动领域的研究进一步发展。我们将所使用的数据集进行公布，以供大家使用和进行数值实验对比。</p>
-<blockquote>
-</blockquote>
-<hr>
-<ol>
-<li><p><strong>HCF-IPDS Dateset（<span class="github-emoji"><span>⭐</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（Beat Production Lines &amp; Vehicle Routing Problem with Soft Time Window and Heterogeneous vehicles）<br>数据集：<a href="link">HCF-IPDS Dateset</a><br>提出该数据集的 <a href="link">文章链接</a>.</p>
-</li>
-<li><p><strong>Fuzzy-IPDS Dateset（<span class="github-emoji"><span>⭐</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>  （Beat Production Lines &amp; Vehicle Routing Problem with Soft Time Window and Heterogeneous vehicles &amp; Fuzzy Travel time）<br>数据集：<a href="link">Fuzzy-IPDS Dateset</a><br>提出该数据集的 <a href="link">文章链接</a>.</p>
-</li>
-</ol>
-<hr>
-<blockquote>
-<p>简介：生产与配送集成调度是近些年来热门的研究领域。大多数学者认为 <a href="https://sci-hub.wf/10.1287/opre.28.6.1436">(Potts, 1980)</a>是该领域的开篇之作。随着该领域专家学者的不断拓展和深入，集成调度的相关研究得到了空前的发展。各方面的理论和方法也不断被提出，可参照综述文献 <a href="https://sci-hub.wf/10.1287/opre.1080.0688">(Chen, 2010)</a>,<a href="https://sci-hub.wf/10.1016/j.cie.2016.12.010">(Moons et al., 2017)</a>, <a href="https://sci-hub.wf/10.1080/00207543.2020.1762019">(Kumar et al., 2020)</a>进行系统的梳理。<br>根据问题特征我们对如下数据集进行简要描述：</p>
-<ul>
-<li>生产调度：(作业车间调度、流水车间调度（流水线、置换、混流）、分布式车间调度、柔性调度、模糊调度、动态调度 等)</li>
-<li>配送调度：(运输问题、车辆路径问题（容量限制、时间窗约束、多行程等））<br>我们所提出的数据集所应用的模型涉及：<br><strong>流水线生产 &amp; 车辆路径问题（考虑容量限制、时间窗约束、多行程）&amp;模糊旅途时间</strong></li>
-</ul>
-</blockquote>
-<h3 id="2-相关领域数据集"><a href="#2-相关领域数据集" class="headerlink" title="2. 相关领域数据集"></a>2. 相关领域数据集</h3><ul>
-<li><p>VRPTW数据集: <strong><a href="https://www.sintef.no/projectweb/top/vrptw/">Solomon-Benchmark</a></strong></p>
-</li>
-<li><p>VRP数据集: <strong><a href="https://neo.lcc.uma.es/vrp/vrp-instances/">Vrp-Instances</a></strong></p>
-</li>
-<li><p>基于问题实例的测试数据集: <strong><a href="http://people.brunel.ac.uk/~mastjjb/jeb/info.html">OR-Library by J E Beasley</a></strong></p>
-</li>
-</ul>
-<hr>
-<h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><ol>
-<li>[ <strong>HCF-IMOEA</strong> ] <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于    <del><a href="link">文章</a></del><br>注：文章见刊后将会更新</li>
-<li>[ <strong>NSGA-II-AVNS</strong> ] <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于 <del><a href="link">文章</a></del><br>注：文章见刊后将会更新</li>
-</ol>
-<hr>
-]]></content>
-  </entry>
-  <entry>
     <title>领域学者</title>
     <url>/link/index.html</url>
     <content><![CDATA[<h3 id="运筹优化"><a href="#运筹优化" class="headerlink" title="运筹优化"></a><p align="center"><font face="黑体" size="5" color="black">运筹优化</font></p></h3><h5 id="车间调度领域"><a href="#车间调度领域" class="headerlink" title="车间调度领域"></a>车间调度领域</h5><ul>
@@ -242,6 +205,43 @@ table th:nth-of-type(2) {
 <li><a href="https://cuglirui.github.io/index.html"><strong>李瑞</strong></a> (柔性作业车间调度 <a href="https://cuglirui.github.io/downloads.htm">FJSP</a> <code>matlab</code>)</li>
 <li><strong>邓发珩</strong> (车辆路径问题 <a href="https://github.com/dengfaheng">VRP，TSP</a> <code>java</code>)</li>
 </ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>数据集和算法代码</title>
+    <url>/resources/index.html</url>
+    <content><![CDATA[<h1 id="Datesets"><a href="#Datesets" class="headerlink" title="Datesets"></a>Datesets</h1><h3 id="1-集成调度数据集（integrated-production-and-distribution-scheduling-problem-IPDS）"><a href="#1-集成调度数据集（integrated-production-and-distribution-scheduling-problem-IPDS）" class="headerlink" title="1. 集成调度数据集（integrated production and distribution scheduling problem, IPDS）"></a>1. 集成调度数据集（integrated production and distribution scheduling problem, IPDS）</h3><p>引言：集成调度涉及生产和配送两个阶段的优化。单独来说，生产调度或配送调度的科学研究比较丰富，有丰富的基准案例数据集以及优秀的求解算法。<strong>可是生产与配送集成调度的研究却在基准案例数据集这方面显得十分匮乏</strong>。出于对该问题的复杂性和特殊性的考虑，大部分研究采用随机生成（或部分随即生成）测试实例的方式进行数值实验，但很少有研究将其测试数据集公布出来以供大家使用和验证。为了给相同或者相近的研究提供统一评价对比和度量的基准，推动领域的研究进一步发展。我们将所使用的数据集进行公布，以供大家使用和进行数值实验对比。</p>
+<blockquote>
+</blockquote>
+<hr>
+<ol>
+<li><p><strong>HCF-IPDS Dateset（<span class="github-emoji"><span>⭐</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（Beat Production Lines &amp; Vehicle Routing Problem with Soft Time Window and Heterogeneous vehicles）<br>数据集：<a href="link">HCF-IPDS Dateset</a><br>提出该数据集的 <a href="link">文章链接</a>.</p>
+</li>
+<li><p><strong>Fuzzy-IPDS Dateset（<span class="github-emoji"><span>⭐</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>  （Beat Production Lines &amp; Vehicle Routing Problem with Soft Time Window and Heterogeneous vehicles &amp; Fuzzy Travel time）<br>数据集：<a href="link">Fuzzy-IPDS Dateset</a><br>提出该数据集的 <a href="link">文章链接</a>.</p>
+</li>
+</ol>
+<hr>
+<blockquote>
+<p>简介：生产与配送集成调度是近些年来热门的研究领域。大多数学者认为 <a href="https://sci-hub.wf/10.1287/opre.28.6.1436">(Potts, 1980)</a>是该领域的开篇之作。随着该领域专家学者的不断拓展和深入，集成调度的相关研究得到了空前的发展。各方面的理论和方法也不断被提出，可参照综述文献 <a href="https://sci-hub.wf/10.1287/opre.1080.0688">(Chen, 2010)</a>,<a href="https://sci-hub.wf/10.1016/j.cie.2016.12.010">(Moons et al., 2017)</a>, <a href="https://sci-hub.wf/10.1080/00207543.2020.1762019">(Kumar et al., 2020)</a>进行系统的梳理。<br>根据问题特征我们对如下数据集进行简要描述：</p>
+<ul>
+<li>生产调度：(作业车间调度、流水车间调度（流水线、置换、混流）、分布式车间调度、柔性调度、模糊调度、动态调度 等)</li>
+<li>配送调度：(运输问题、车辆路径问题（容量限制、时间窗约束、多行程等））<br>我们所提出的数据集所应用的模型涉及：<br><strong>流水线生产 &amp; 车辆路径问题（考虑容量限制、时间窗约束、多行程）&amp;模糊旅途时间</strong></li>
+</ul>
+</blockquote>
+<h3 id="2-相关领域数据集"><a href="#2-相关领域数据集" class="headerlink" title="2. 相关领域数据集"></a>2. 相关领域数据集</h3><ul>
+<li><p>VRPTW数据集: <strong><a href="https://www.sintef.no/projectweb/top/vrptw/">Solomon-Benchmark</a></strong></p>
+</li>
+<li><p>VRP数据集: <strong><a href="https://neo.lcc.uma.es/vrp/vrp-instances/">Vrp-Instances</a></strong></p>
+</li>
+<li><p>基于问题实例的测试数据集: <strong><a href="http://people.brunel.ac.uk/~mastjjb/jeb/info.html">OR-Library by J E Beasley</a></strong></p>
+</li>
+</ul>
+<hr>
+<h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><ol>
+<li>[ <strong>HCF-IMOEA</strong> ] <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于    <del><a href="link">文章</a></del><br>注：文章见刊后将会更新</li>
+<li>[ <strong>NSGA-II-AVNS</strong> ] <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于 <del><a href="link">文章</a></del><br>注：文章见刊后将会更新</li>
+</ol>
+<hr>
 ]]></content>
   </entry>
 </search>
