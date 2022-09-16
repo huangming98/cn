@@ -9,7 +9,7 @@ window.onload = function() {
             window.location.href = href.replace('/cn/', '/');
         }
         else {
-            window.location.href = "https://huangming98.github.io";
+            window.location.href = "https://www.huangm.cn";
         }
         if(typeof(_prevOnload) === 'function') {
             _prevOnload();
