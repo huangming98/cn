@@ -38,77 +38,6 @@
   </entry>
   <entry>
     <title>欢迎来到我的学术主页</title>
-    <url>/cn/home/index.html</url>
-    <content><![CDATA[<h1 id="最新消息-boom"><a href="#最新消息-boom" class="headerlink" title="最新消息(:boom:)"></a>最新消息(<span class="github-emoji"><span>💥</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a5.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>)</h1><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
-
-<hr>
-<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p><strong>黄铭</strong>，男，1999年出生于河北省邢台市。目前在武汉理工大学-工业工程专业攻读硕士学位。将于2023年硕士毕业，目前正处于博士申请阶段，准备攻读博士学位。<br>如有任何问题，可以与我联系 E-mail（ <span class="github-emoji"><span>✉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2709.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> ）： <a href="mailto:huangming98@163.com">huangming98@163.com</a> (或 <a href="mailto:huangming@whut.edu.cn">huangming@whut.edu.cn</a> ).<br>地址：湖北省武汉市珞狮路 122号 武汉理工大学 430070 .</p>
-<!-- 让表格居中显示的风格 -->
-<style>
-.center 
-{
-  display: table;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-table th:first-of-type {
-    width: 460pt;
-}
-table th:nth-of-type(2) {
-    width: 600pt;
-}
-</style>
-
-<div class="center">
-
-<table>
-<thead>
-<tr>
-<th align="left"><span class="github-emoji"><span>🔍</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>   研究兴趣</th>
-<th align="left"><span class="github-emoji"><span>🎓</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>   教育背景</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><li><strong>生产与配送集成调度（IPDS）</strong></li><li>复杂系统建模优化</li><li>运筹优化算法(多目标优化算法)</li><li>车辆路径问题（VRP）</li><li>多阶段协同优化</li></td>
-<td align="left"><li><strong>2020.9 - 至今 武汉理工大学 工业工程 工学硕士学位</strong></li><li>2016.9 - 2020.7 河北大学 质量管理工程 管理学学士学位</li><li>2013.9 - 2016.7 河北省邢台市第一中学 高中  </li></td>
-</tr>
-</tbody></table>
-<hr>
-<h1 id="我的导师"><a href="#我的导师" class="headerlink" title="我的导师"></a>我的导师</h1><ul>
-<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201901/t20190103_351115.shtml"><strong>杜百岗</strong></a> 副教授（我的硕士导师） <br></li>
-<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201510/t20151014_200361.shtml"><strong>郭钧</strong></a> 副教授（我的硕士第二导师）</li>
-</ul>
-<hr>
-<h1 id="竞赛获奖"><a href="#竞赛获奖" class="headerlink" title="竞赛获奖"></a>竞赛获奖</h1><div class="note info">
-            <ul><li><font color="blue">2022.06</font> 第十二届武汉理工大学研究生数学建模竞赛 <strong>一等奖</strong><br>建模题目：基于资源受限的车辆路径问题研究</li></ul>
-          </div>
-
-<div class="note info">
-            <ul><li><font color="blue">2021.12</font> ““华为杯”第十八届中国研究生数学建模竞赛 <strong>三等奖</strong><br>建模题目：航空公司机组优化排班问题</li></ul>
-          </div>
-
-<div class="note info">
-            <ul><li><font color="blue">2021.01</font> “云说新科技”科普大赛 <strong>三等奖</strong><br>参赛作品：基于 OpenCV 的智能电厂巡检小车</li></ul>
-          </div>
-
-<hr>
-<h1 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h1><h2 id="基金项目"><a href="#基金项目" class="headerlink" title="基金项目"></a>基金项目</h2><div class="note warning">
-            <ol><li>武汉理工大学自主创新基金-研究生自由探索项目（个人）：<br>基于柔性分批和软时间窗约束的生产与配送集成调度研究<br><font color="blue">2022.1-2022.12</font>（<strong>项目负责人</strong>）</li></ol>
-          </div>
-
-<div class="note warning">
-            <ol start="2"><li>国家自然科学基金（青年基金）：<br>面向社会化协同的复杂产品系统制造服务供需配置博弈方法<br><font color="blue">2018.1-2020.12 </font>（<strong>项目参与人</strong>）</li></ol>
-          </div>
-
-<h3 id="实习经历"><a href="#实习经历" class="headerlink" title="实习经历"></a>实习经历</h3><div class="note warning">
-            <h4 id="—-2021-7-2022-7-武汉拓行智网科技有限公司-（Java-后端开发）"><a href="#—-2021-7-2022-7-武汉拓行智网科技有限公司-（Java-后端开发）" class="headerlink" title="— 2021.7-2022.7 武汉拓行智网科技有限公司 （Java 后端开发）"></a>— 2021.7-2022.7 <a href="http://www.tonshinet.com/">武汉拓行智网科技有限公司</a> （Java 后端开发）</h4><ul><li><p><font color="blue">2021.7-2021.12 </font> 风机运维数字化应用平台开发</p></li><li><p><font color="blue">2022.1-2022.7 </font> 唐山中材重机 PMS 改进项目-外网询价管理平台开发</p></li></ul>
-          </div>
-
-<p><a href="https://clustrmaps.com/site/1bqbj"><img src="//clustrmaps.com/map_v2.png?cl=555555&amp;w=500&amp;t=m&amp;d=b6-cOzsyxmN07VPEXlJO1PaWKRLFhE6feh1y5oiN1Hw&amp;co=ffffff&amp;ct=555555"></a></p>
-</div>]]></content>
-  </entry>
-  <entry>
-    <title>欢迎来到我的学术主页</title>
     <url>/cn/index.html</url>
     <content><![CDATA[<h1 id="最新消息-boom"><a href="#最新消息-boom" class="headerlink" title="最新消息(:boom:)"></a>最新消息(<span class="github-emoji"><span>💥</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a5.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>)</h1><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
 
@@ -176,8 +105,92 @@ table th:nth-of-type(2) {
             <h4 id="—-2021-7-2022-7-武汉拓行智网科技有限公司-（Java-后端开发）"><a href="#—-2021-7-2022-7-武汉拓行智网科技有限公司-（Java-后端开发）" class="headerlink" title="— 2021.7-2022.7 武汉拓行智网科技有限公司 （Java 后端开发）"></a>— 2021.7-2022.7 <a href="http://www.tonshinet.com/">武汉拓行智网科技有限公司</a> （Java 后端开发）</h4><ul><li><p><font color="blue">2021.7-2021.12 </font> 风机运维数字化应用平台开发</p></li><li><p><font color="blue">2022.1-2022.7 </font> 唐山中材重机 PMS 改进项目-外网询价管理平台开发</p></li></ul>
           </div>
 
-<p><a href="https://clustrmaps.com/site/1bqbj"><img src="//clustrmaps.com/map_v2.png?cl=555555&amp;w=500&amp;t=m&amp;d=b6-cOzsyxmN07VPEXlJO1PaWKRLFhE6feh1y5oiN1Hw&amp;co=ffffff&amp;ct=555555"></a></p>
+<p><a href="https://clustrmaps.com/site/1bqdf" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=555555&amp;w=500&amp;t=m&amp;d=lPGunm_IA1w4rADFSr_XZ_r1KQCj0GoM-18qXvbMs1E&amp;co=ffffff&amp;ct=555555"></a></p>
 </div>]]></content>
+  </entry>
+  <entry>
+    <title>欢迎来到我的学术主页</title>
+    <url>/cn/home/index.html</url>
+    <content><![CDATA[<h1 id="最新消息-boom"><a href="#最新消息-boom" class="headerlink" title="最新消息(:boom:)"></a>最新消息(<span class="github-emoji"><span>💥</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a5.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>)</h1><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
+
+<hr>
+<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p><strong>黄铭</strong>，男，1999年出生于河北省邢台市。目前在武汉理工大学-工业工程专业攻读硕士学位。将于2023年硕士毕业，目前正处于博士申请阶段，准备攻读博士学位。<br>如有任何问题，可以与我联系 E-mail（ <span class="github-emoji"><span>✉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2709.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> ）： <a href="mailto:huangming98@163.com">huangming98@163.com</a> (或 <a href="mailto:huangming@whut.edu.cn">huangming@whut.edu.cn</a> ).<br>地址：湖北省武汉市珞狮路 122号 武汉理工大学 430070 .</p>
+<!-- 让表格居中显示的风格 -->
+<style>
+.center 
+{
+  display: table;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+table th:first-of-type {
+    width: 460pt;
+}
+table th:nth-of-type(2) {
+    width: 600pt;
+}
+</style>
+
+<div class="center">
+
+<table>
+<thead>
+<tr>
+<th align="left"><span class="github-emoji"><span>🔍</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>   研究兴趣</th>
+<th align="left"><span class="github-emoji"><span>🎓</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>   教育背景</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><li><strong>生产与配送集成调度（IPDS）</strong></li><li>复杂系统建模优化</li><li>运筹优化算法(多目标优化算法)</li><li>车辆路径问题（VRP）</li><li>多阶段协同优化</li></td>
+<td align="left"><li><strong>2020.9 - 至今 武汉理工大学 工业工程 工学硕士学位</strong></li><li>2016.9 - 2020.7 河北大学 质量管理工程 管理学学士学位</li><li>2013.9 - 2016.7 河北省邢台市第一中学 高中  </li></td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="我的导师"><a href="#我的导师" class="headerlink" title="我的导师"></a>我的导师</h1><ul>
+<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201901/t20190103_351115.shtml"><strong>杜百岗</strong></a> 副教授（我的硕士导师） <br></li>
+<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201510/t20151014_200361.shtml"><strong>郭钧</strong></a> 副教授（我的硕士第二导师）</li>
+</ul>
+<hr>
+<h1 id="竞赛获奖"><a href="#竞赛获奖" class="headerlink" title="竞赛获奖"></a>竞赛获奖</h1><div class="note info">
+            <ul><li><font color="blue">2022.06</font> 第十二届武汉理工大学研究生数学建模竞赛 <strong>一等奖</strong><br>建模题目：基于资源受限的车辆路径问题研究</li></ul>
+          </div>
+
+<div class="note info">
+            <ul><li><font color="blue">2021.12</font> ““华为杯”第十八届中国研究生数学建模竞赛 <strong>三等奖</strong><br>建模题目：航空公司机组优化排班问题</li></ul>
+          </div>
+
+<div class="note info">
+            <ul><li><font color="blue">2021.01</font> “云说新科技”科普大赛 <strong>三等奖</strong><br>参赛作品：基于 OpenCV 的智能电厂巡检小车</li></ul>
+          </div>
+
+<hr>
+<h1 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h1><h2 id="基金项目"><a href="#基金项目" class="headerlink" title="基金项目"></a>基金项目</h2><div class="note warning">
+            <ol><li>武汉理工大学自主创新基金-研究生自由探索项目（个人）：<br>基于柔性分批和软时间窗约束的生产与配送集成调度研究<br><font color="blue">2022.1-2022.12</font>（<strong>项目负责人</strong>）</li></ol>
+          </div>
+
+<div class="note warning">
+            <ol start="2"><li>国家自然科学基金（青年基金）：<br>面向社会化协同的复杂产品系统制造服务供需配置博弈方法<br><font color="blue">2018.1-2020.12 </font>（<strong>项目参与人</strong>）</li></ol>
+          </div>
+
+<h3 id="实习经历"><a href="#实习经历" class="headerlink" title="实习经历"></a>实习经历</h3><div class="note warning">
+            <h4 id="—-2021-7-2022-7-武汉拓行智网科技有限公司-（Java-后端开发）"><a href="#—-2021-7-2022-7-武汉拓行智网科技有限公司-（Java-后端开发）" class="headerlink" title="— 2021.7-2022.7 武汉拓行智网科技有限公司 （Java 后端开发）"></a>— 2021.7-2022.7 <a href="http://www.tonshinet.com/">武汉拓行智网科技有限公司</a> （Java 后端开发）</h4><ul><li><p><font color="blue">2021.7-2021.12 </font> 风机运维数字化应用平台开发</p></li><li><p><font color="blue">2022.1-2022.7 </font> 唐山中材重机 PMS 改进项目-外网询价管理平台开发</p></li></ul>
+          </div>
+
+<p><a href="https://clustrmaps.com/site/1bqdf" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=555555&amp;w=500&amp;t=m&amp;d=lPGunm_IA1w4rADFSr_XZ_r1KQCj0GoM-18qXvbMs1E&amp;co=ffffff&amp;ct=555555"></a></p>
+</div>]]></content>
+  </entry>
+  <entry>
+    <title>期刊论文</title>
+    <url>/cn/publications/index.html</url>
+    <content><![CDATA[<h3 id="工作论文"><a href="#工作论文" class="headerlink" title="工作论文"></a>工作论文</h3><ol>
+<li><p><strong>Huang, M.</strong>, Du, B. G., &amp; Guo, J*. (2022). A hybrid collaborative framework for integrated production scheduling and vehicle routing problem with flexible batch manufacturing and soft time windows. (European Journal of Operational Research, Under Review ) </p>
+</li>
+<li><p><strong>黄铭</strong>, 杜百岗*，郭钧,等. (2022). 考虑软时间窗限制和模糊旅途时间的生产配送集成调度优化. (计算机集成制造系统，在投论文)</p>
+</li>
+</ol>
+<h3 id="发表论文"><a href="#发表论文" class="headerlink" title="发表论文"></a>发表论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
+
+<h3 id="会议论文"><a href="#会议论文" class="headerlink" title="会议论文"></a>会议论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>]]></content>
   </entry>
   <entry>
     <title>领域学者</title>
@@ -249,18 +262,5 @@ table th:nth-of-type(2) {
             <ol start="2"><li><a href="link"> NSGA-II-AVNS </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于    <del><a href="link">文章</a></del><br>注：文章见刊后将会更新</li></ol>
           </div>
 ]]></content>
-  </entry>
-  <entry>
-    <title>期刊论文</title>
-    <url>/cn/publications/index.html</url>
-    <content><![CDATA[<h3 id="工作论文"><a href="#工作论文" class="headerlink" title="工作论文"></a>工作论文</h3><ol>
-<li><p><strong>Huang, M.</strong>, Du, B. G., &amp; Guo, J*. (2022). A hybrid collaborative framework for integrated production scheduling and vehicle routing problem with flexible batch manufacturing and soft time windows. (European Journal of Operational Research, Under Review ) </p>
-</li>
-<li><p><strong>黄铭</strong>, 杜百岗*，郭钧,等. (2022). 考虑软时间窗限制和模糊旅途时间的生产配送集成调度优化. (计算机集成制造系统，在投论文)</p>
-</li>
-</ol>
-<h3 id="发表论文"><a href="#发表论文" class="headerlink" title="发表论文"></a>发表论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
-
-<h3 id="会议论文"><a href="#会议论文" class="headerlink" title="会议论文"></a>会议论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>]]></content>
   </entry>
 </search>
