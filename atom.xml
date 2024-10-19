@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ming Huang&#39;s Homepage</title>
+  
+  <subtitle>让我们一起做些有挑战的事！</subtitle>
+  <link href="https://www.huangm.cn/cn/atom.xml" rel="self"/>
+  
+  <link href="https://www.huangm.cn/cn/"/>
+  <updated>2024-10-19T11:15:08.946Z</updated>
+  <id>https://www.huangm.cn/cn/</id>
+  
+  <author>
+    <name>黄铭</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>集成调度数据集</title>
+    <link href="https://www.huangm.cn/cn/2022/09/16/blog1/"/>
+    <id>https://www.huangm.cn/cn/2022/09/16/blog1/</id>
+    <published>2022-09-16T15:53:42.000Z</published>
+    <updated>2024-10-19T11:15:08.946Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt; 简介：生产与配送集成调度是近些年来热门的研究领域。大多数学者认为 &lt;a href=&quot;https://sci-hub.wf/10.1287/opre.28.6.1436&quot;&gt;(Potts, 1980)&lt;/a&gt;是该领域的开篇之作。随着该领域专家学者的不断拓展和深入，集成调度的相</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

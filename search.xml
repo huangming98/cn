@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/cn/2024/10/12/hello-world/</url>
+    <title>集成调度数据集</title>
+    <url>/cn/2022/09/16/blog1/</url>
+    <content><![CDATA[<p> 简介：生产与配送集成调度是近些年来热门的研究领域。大多数学者认为 <a href="https://sci-hub.wf/10.1287/opre.28.6.1436">(Potts, 1980)</a>是该领域的开篇之作。随着该领域专家学者的不断拓展和深入，集成调度的相关研究得到了空前的发展。各方面的理论和方法也不断被提出，可参照综述文献 <a href="https://sci-hub.wf/10.1287/opre.1080.0688">(Chen, 2010)</a>,<a href="https://sci-hub.wf/10.1016/j.cie.2016.12.010">(Moons et al., 2017)</a>, <a href="https://sci-hub.wf/10.1080/00207543.2020.1762019">(Kumar et al., 2020)</a>进行系统的梳理。</p>
+<blockquote>
+<p>根据问题特征我们对如下数据集进行简要描述：</p>
+<ul>
+<li>生产调度：(作业车间调度、流水车间调度（流水线、置换、混流）、分布式车间调度、柔性调度、模糊调度、动态调度 等)</li>
+<li>配送调度：(运输问题、车辆路径问题（容量限制、时间窗约束、多行程等））<br>我们所提出的数据集所应用的模型涉及：<br><strong>流水线生产 &amp; 车辆路径问题（考虑容量限制、时间窗约束、多行程）&amp;模糊旅途时间</strong></li>
+</ul>
+</blockquote>
+<hr>
+]]></content>
+  </entry>
+  <entry>
+    <title>about</title>
+    <url>/cn/about/index.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
 
@@ -115,24 +129,6 @@ table th:nth-of-type(2) {
 
 <p><a href="https://clustrmaps.com/site/1bqdf" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=555555&amp;w=500&amp;t=m&amp;d=lPGunm_IA1w4rADFSr_XZ_r1KQCj0GoM-18qXvbMs1E&amp;co=ffffff&amp;ct=555555"></a></p>
 </div>]]></content>
-  </entry>
-  <entry>
-    <title>about</title>
-    <url>/cn/about/index.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>欢迎来到我的学术主页</title>
@@ -281,25 +277,6 @@ table th:nth-of-type(2) {
 ]]></content>
   </entry>
   <entry>
-    <title>学术论文</title>
-    <url>/cn/publications/index.html</url>
-    <content><![CDATA[<div class="note success">
-            <h3 id="硕士学位论文"><a href="#硕士学位论文" class="headerlink" title="硕士学位论文"></a>硕士学位论文</h3><ol><li><strong>黄铭</strong>, 2023. 快速消费品制造企业生产-配送集成调度研究. 武汉理工大学.<a href="../pdf/(Thesis)%20%E5%BF%AB%E9%80%9F%E6%B6%88%E8%B4%B9%E5%93%81%E5%88%B6%E9%80%A0%E4%BC%81%E4%B8%9A%E7%94%9F%E4%BA%A7-%E9%85%8D%E9%80%81%E9%9B%86%E6%88%90%E8%B0%83%E5%BA%A6%E7%A0%94%E7%A9%B6.pdf"> (Master’s Thesis) </a> <strong><code>PDF</code></strong>;</li></ol>
-          </div>
-
-<div class="note success">
-            <h3 id="发表论文"><a href="#发表论文" class="headerlink" title="发表论文"></a>发表论文</h3><ol><li><p><strong>M. Huang</strong>, S. Huang, B. Du*, J. Guo and Y. Li. Fuzzy Superposition Operation and Knowledge-driven Co-evolutionary Algorithm for Integrated Production Scheduling and Vehicle Routing Problem with Soft Time Windows and Fuzzy Travel Times. <em>IEEE Transactions on Fuzzy Systems</em>, 2024, doi: 10.1109/TFUZZ.2024.3388003.（中科院1区，IF 11.9，TOP）<br><a href="https://ieeexplore.ieee.org/document/10497842"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/KDCEA-Code.zip"> (KDCEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-Dateset.zip">(IPSVRP-STW&amp;FTT Dateset)</a> <strong><code>.zip</code></strong>;<a href="../zip/IPSVRP-STW-FTT-AMPL.zip"> (AMPL) </a> <strong><code>.mod</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-CASE.zip">(CASE)</a> <strong><code>.zip</code></strong></p></li><li><p><strong>Huang, M.</strong>, Du, B. G., Guo, J*. A hybrid collaborative framework for integrated production scheduling and vehicle routing problem with batch manufacturing and soft time windows. <em>Computers &amp; Operations Research</em>, 2023, 159, 106346. <a href="https://doi.org/10.1016/j.cor.2023.106346">https://doi.org/10.1016/j.cor.2023.106346</a>. (中科院2区，IF 4.6，ABS-3)<br><a href="https://www.sciencedirect.com/science/article/pii/S0305054823002101"> (Paper) </a> <strong><code>HTML</code></strong>; <a href="link"> (HCF-IMOEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-BM-STW-Dateset.zip">(IPSVRP-BM&amp;STW Dateset)</a> <strong><code>.zip</code></strong></p></li><li><p><strong>黄铭</strong>, 杜百岗*, 郭钧, 李益兵. 考虑软时间窗限制和模糊旅途时间的生产配送集成调度优化.2023, 40(x): 1–10. DOI: 10.7641/CTA.2023.20920 (EI检索，IF 2.781)<br><a href="https://kns.cnki.net/kcms2/article/abstract?v=xNq_RSSxttstktCq-VWRIQS1e6fIAq26YV2DyMFsCVB9NtbxKqFgDZtEE5MiKN1dG5PLmIItcZsrbA9y-tAUQMMLpbYZJEJr4NENoL1ughgxkkSL6gjYdqp7OcHpgSim7TjKF6gvjYE=&amp;uniplatform=NZKPT&amp;language=CHS"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/NSGA-II-AVNS-Code.zip"> (NSGA-II-AVNS) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/Fuzzy-IPDS-Dateset.zip">(Fuzzy-IPDS Dateset)</a> <strong><code>.zip</code></strong></p></li></ol>
-          </div>
-
-<div class="note warning">
-            <h3 id="工作论文"><a href="#工作论文" class="headerlink" title="工作论文"></a>工作论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
-          </div>
-
-<div class="note warning">
-            <h3 id="会议论文"><a href="#会议论文" class="headerlink" title="会议论文"></a>会议论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
-          </div>]]></content>
-  </entry>
-  <entry>
     <title>数据集和算法代码</title>
     <url>/cn/resources/index.html</url>
     <content><![CDATA[<h1 id="数据集"><a href="#数据集" class="headerlink" title="数据集"></a>数据集</h1><h4 id="1-生产配送集成调度-IPDS"><a href="#1-生产配送集成调度-IPDS" class="headerlink" title="1. 生产配送集成调度(IPDS)"></a>1. 生产配送集成调度(IPDS)</h4><div class="note info">
@@ -335,6 +312,25 @@ table th:nth-of-type(2) {
 
 <div class="note info">
             <ol><li><a href="../zip/KDCEA-Code.zip"> KDCEA </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于    <a href="https://ieeexplore.ieee.org/document/10497842">此文章</a> <strong><code>HTML</code></strong></li></ol>
+          </div>]]></content>
+  </entry>
+  <entry>
+    <title>学术论文</title>
+    <url>/cn/publications/index.html</url>
+    <content><![CDATA[<div class="note success">
+            <h3 id="硕士学位论文"><a href="#硕士学位论文" class="headerlink" title="硕士学位论文"></a>硕士学位论文</h3><ol><li><strong>黄铭</strong>, 2023. 快速消费品制造企业生产-配送集成调度研究. 武汉理工大学.<a href="../pdf/(Thesis)%20%E5%BF%AB%E9%80%9F%E6%B6%88%E8%B4%B9%E5%93%81%E5%88%B6%E9%80%A0%E4%BC%81%E4%B8%9A%E7%94%9F%E4%BA%A7-%E9%85%8D%E9%80%81%E9%9B%86%E6%88%90%E8%B0%83%E5%BA%A6%E7%A0%94%E7%A9%B6.pdf"> (Master’s Thesis) </a> <strong><code>PDF</code></strong>;</li></ol>
+          </div>
+
+<div class="note success">
+            <h3 id="发表论文"><a href="#发表论文" class="headerlink" title="发表论文"></a>发表论文</h3><ol><li><p><strong>M. Huang</strong>, S. Huang, B. Du*, J. Guo and Y. Li. Fuzzy Superposition Operation and Knowledge-driven Co-evolutionary Algorithm for Integrated Production Scheduling and Vehicle Routing Problem with Soft Time Windows and Fuzzy Travel Times. <em>IEEE Transactions on Fuzzy Systems</em>, 2024, doi: 10.1109/TFUZZ.2024.3388003.（中科院1区，IF 11.9，TOP）<br><a href="https://ieeexplore.ieee.org/document/10497842"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/KDCEA-Code.zip"> (KDCEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-Dateset.zip">(IPSVRP-STW&amp;FTT Dateset)</a> <strong><code>.zip</code></strong>;<a href="../zip/IPSVRP-STW-FTT-AMPL.zip"> (AMPL) </a> <strong><code>.mod</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-CASE.zip">(CASE)</a> <strong><code>.zip</code></strong></p></li><li><p><strong>Huang, M.</strong>, Du, B. G., Guo, J*. A hybrid collaborative framework for integrated production scheduling and vehicle routing problem with batch manufacturing and soft time windows. <em>Computers &amp; Operations Research</em>, 2023, 159, 106346. <a href="https://doi.org/10.1016/j.cor.2023.106346">https://doi.org/10.1016/j.cor.2023.106346</a>. (中科院2区，IF 4.6，ABS-3)<br><a href="https://www.sciencedirect.com/science/article/pii/S0305054823002101"> (Paper) </a> <strong><code>HTML</code></strong>; <a href="link"> (HCF-IMOEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-BM-STW-Dateset.zip">(IPSVRP-BM&amp;STW Dateset)</a> <strong><code>.zip</code></strong></p></li><li><p><strong>黄铭</strong>, 杜百岗*, 郭钧, 李益兵. 考虑软时间窗限制和模糊旅途时间的生产配送集成调度优化.2023, 40(x): 1–10. DOI: 10.7641/CTA.2023.20920 (EI检索，IF 2.781)<br><a href="https://kns.cnki.net/kcms2/article/abstract?v=xNq_RSSxttstktCq-VWRIQS1e6fIAq26YV2DyMFsCVB9NtbxKqFgDZtEE5MiKN1dG5PLmIItcZsrbA9y-tAUQMMLpbYZJEJr4NENoL1ughgxkkSL6gjYdqp7OcHpgSim7TjKF6gvjYE=&amp;uniplatform=NZKPT&amp;language=CHS"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/NSGA-II-AVNS-Code.zip"> (NSGA-II-AVNS) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/Fuzzy-IPDS-Dateset.zip">(Fuzzy-IPDS Dateset)</a> <strong><code>.zip</code></strong></p></li></ol>
+          </div>
+
+<div class="note warning">
+            <h3 id="工作论文"><a href="#工作论文" class="headerlink" title="工作论文"></a>工作论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
+          </div>
+
+<div class="note warning">
+            <h3 id="会议论文"><a href="#会议论文" class="headerlink" title="会议论文"></a>会议论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
           </div>]]></content>
   </entry>
 </search>

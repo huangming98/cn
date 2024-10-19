@@ -79,6 +79,7 @@
 
 
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/cn/atom.xml" title="Ming Huang's Homepage" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -102,6 +103,7 @@
       <h1 class="site-title">Ming Huang's Homepage</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
+      <p class="site-subtitle" itemprop="description">让我们一起做些有挑战的事！</p>
   </div>
 
   <div class="site-nav-right">
@@ -330,7 +332,7 @@
     <img class="site-author-image" itemprop="image" alt="黄铭"
       src="/cn/images/pic.png">
   <p class="site-author-name" itemprop="name">黄铭</p>
-  <div class="site-description" itemprop="description">让我们一起做些有意义的事！</div>
+  <div class="site-description" itemprop="description">让我们一起做些有挑战的事！</div>
 </div>
   <div class="links-of-author motion-element">
       <span class="links-of-author-item">
@@ -356,6 +358,8 @@
 <script src="/cn/js/switch_language.js"></script>
       </div>
 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=25731320&auto=1&height=66"></iframe>
+
     </div>
   </aside>
   <div id="sidebar-dimmer"></div>
@@ -377,11 +381,33 @@
   
    
 </div>
-  <div class="powered-by">不要去害怕犯错，只应去害怕错过机会。
+  <div class="powered-by"><p style="color:rgb(0,0,255,0.8);font-size:1.2em;font-weight:bold;font-family:STKaiti">不要去害怕犯错，只应去害怕错过机会!</p>
   </div>
 
 <!-- Insert clustrmaps.com -->
 <!-- <a target="_blank" rel="noopener" href='https://clustrmaps.com/site/1bqbj' ><img src='//clustrmaps.com/map_v2.png?cl=555555&w=350&t=m&d=b6-cOzsyxmN07VPEXlJO1PaWKRLFhE6feh1y5oiN1Hw&co=f5f5f5&ct=555555'/></a> -->
+
+<!-- 网站运行时间的设置 -->
+<span id="timeDate">载入天数...</span>
+<span id="times">载入时分秒...</span>
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("03/01/2023 10:00:00"); //此处修改你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "<br />本站已默默无闻运行 "+dnum+" 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+setInterval("createtime()",250);
+</script>
+
+
 
 
         
