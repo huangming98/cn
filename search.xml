@@ -230,6 +230,63 @@ table th:nth-of-type(2) {
 </div>]]></content>
   </entry>
   <entry>
+    <title>学术论文</title>
+    <url>/cn/publications/index.html</url>
+    <content><![CDATA[<div class="note success">
+            <h3 id="硕士学位论文"><a href="#硕士学位论文" class="headerlink" title="硕士学位论文"></a>硕士学位论文</h3><ol><li><strong>黄铭</strong>, 2023. 快速消费品制造企业生产-配送集成调度研究. 武汉理工大学.<a href="../pdf/(Thesis)%20%E5%BF%AB%E9%80%9F%E6%B6%88%E8%B4%B9%E5%93%81%E5%88%B6%E9%80%A0%E4%BC%81%E4%B8%9A%E7%94%9F%E4%BA%A7-%E9%85%8D%E9%80%81%E9%9B%86%E6%88%90%E8%B0%83%E5%BA%A6%E7%A0%94%E7%A9%B6.pdf"> (Master’s Thesis) </a> <strong><code>PDF</code></strong>;</li></ol>
+          </div>
+
+<div class="note success">
+            <h3 id="发表论文"><a href="#发表论文" class="headerlink" title="发表论文"></a>发表论文</h3><ol><li><p><strong>M. Huang</strong>, S. Huang, B. Du*, J. Guo and Y. Li. Fuzzy Superposition Operation and Knowledge-driven Co-evolutionary Algorithm for Integrated Production Scheduling and Vehicle Routing Problem with Soft Time Windows and Fuzzy Travel Times. <em>IEEE Transactions on Fuzzy Systems</em>, 2024, doi: 10.1109/TFUZZ.2024.3388003.（中科院1区，IF 11.9，TOP）<br><a href="https://ieeexplore.ieee.org/document/10497842"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/KDCEA-Code.zip"> (KDCEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-Dateset.zip">(IPSVRP-STW&amp;FTT Dateset)</a> <strong><code>.zip</code></strong>;<a href="../zip/IPSVRP-STW-FTT-AMPL.zip"> (AMPL) </a> <strong><code>.mod</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-CASE.zip">(CASE)</a> <strong><code>.zip</code></strong></p></li><li><p><strong>Huang, M.</strong>, Du, B. G., Guo, J*. A hybrid collaborative framework for integrated production scheduling and vehicle routing problem with batch manufacturing and soft time windows. <em>Computers &amp; Operations Research</em>, 2023, 159, 106346. <a href="https://doi.org/10.1016/j.cor.2023.106346">https://doi.org/10.1016/j.cor.2023.106346</a>. (中科院2区，IF 4.6，ABS-3)<br><a href="https://www.sciencedirect.com/science/article/pii/S0305054823002101"> (Paper) </a> <strong><code>HTML</code></strong>; <a href="link"> (HCF-IMOEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-BM-STW-Dateset.zip">(IPSVRP-BM&amp;STW Dateset)</a> <strong><code>.zip</code></strong></p></li><li><p><strong>黄铭</strong>, 杜百岗*, 郭钧, 李益兵. 考虑软时间窗限制和模糊旅途时间的生产配送集成调度优化.2023, 40(x): 1–10. DOI: 10.7641/CTA.2023.20920 (EI检索，IF 2.781)<br><a href="https://kns.cnki.net/kcms2/article/abstract?v=xNq_RSSxttstktCq-VWRIQS1e6fIAq26YV2DyMFsCVB9NtbxKqFgDZtEE5MiKN1dG5PLmIItcZsrbA9y-tAUQMMLpbYZJEJr4NENoL1ughgxkkSL6gjYdqp7OcHpgSim7TjKF6gvjYE=&amp;uniplatform=NZKPT&amp;language=CHS"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/NSGA-II-AVNS-Code.zip"> (NSGA-II-AVNS) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/Fuzzy-IPDS-Dateset.zip">(Fuzzy-IPDS Dateset)</a> <strong><code>.zip</code></strong></p></li></ol>
+          </div>
+
+<div class="note warning">
+            <h3 id="工作论文"><a href="#工作论文" class="headerlink" title="工作论文"></a>工作论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
+          </div>
+
+<div class="note warning">
+            <h3 id="会议论文"><a href="#会议论文" class="headerlink" title="会议论文"></a>会议论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
+          </div>]]></content>
+  </entry>
+  <entry>
+    <title>数据集和算法代码</title>
+    <url>/cn/resources/index.html</url>
+    <content><![CDATA[<h1 id="数据集"><a href="#数据集" class="headerlink" title="数据集"></a>数据集</h1><h4 id="1-生产配送集成调度-IPDS"><a href="#1-生产配送集成调度-IPDS" class="headerlink" title="1. 生产配送集成调度(IPDS)"></a>1. 生产配送集成调度(IPDS)</h4><div class="note info">
+            <ul><li><strong>IPSVRP-BM&amp;STW Dateset（<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（节拍生产线 &amp; 带异构车辆和软时间窗的车辆路径问题）<br>数据集下载：<a href="../zip/IPSVRP-BM-STW-Dateset.zip">IPSVRP-BM&amp;STW Dateset</a><br><a href="../pdf/A%20hybrid%20collaborative%20framework%20for%20integrated%20production%20scheduling%20and%20vehicle%20routing%20problem%20with%20batch%20manufacturing%20and%20soft%20time%20windows.pdf">此文章</a> 提出该数据集<br><a href="link">一个博客</a> 介绍该数据集的形成过程</li></ul>
+          </div>
+
+<div class="note info">
+            <ul><li><strong>Fuzzy-IPDS Dateset（<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（节拍生产线 &amp; 带异构车辆和软时间窗的车辆路径问题 &amp; 模糊旅途时间）<br>数据集下载：<a href="../zip/Fuzzy-IPDS-Dateset.zip">Fuzzy-IPDS Dateset</a><br><a href="link">此文章</a> 提出该数据集<br><a href="link">一个博客</a> 介绍该数据集的形成过程</li></ul>
+          </div>
+
+<div class="note info">
+            <ul><li><strong>IPSVRP-STW&amp;FTT Dateset（<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（节拍生产线 &amp; 软时间窗 &amp; 数量受限的多行程异构车辆 &amp; 模糊旅途时间）<br>数据集下载：<a href="../zip/IPSVRP-STW-FTT-Dateset.zip">IPSVRP-STW&amp;FTT Dateset</a><br><a href="link">此文章</a> 提出该数据集<br><a href="link">一个博客</a> 介绍该数据集的形成过程</li></ul>
+          </div>
+
+
+<p><font color="#428BCA" size="5"><strong>初衷</strong></font>:<br>IPDS问题涉及生产和配送两个阶段的优化。单独来说，生产调度或配送调度的科学研究时间较长，有丰富的基准案例数据集以及优秀的求解算法。<strong>然而，生产与配送集成调度的研究却在基准案例数据集这方面显得相对匮乏</strong>。出于对该问题的复杂性和特殊性的考虑，大部分研究采用随机生成（或部分随即生成）测试实例的方式进行数值实验，但很少有研究将其测试数据集公布出来以供其他研究者使用和验证。为了给相同或者相近的研究提供统一评价对比和度量的基准，我们将所使用的数据集进行公布，以供其他研究者使用，从而方便其进行数值实验对比工作。</p>
+<h4 id="2-其他研究者提供的数据集"><a href="#2-其他研究者提供的数据集" class="headerlink" title="2. 其他研究者提供的数据集"></a>2. 其他研究者提供的数据集</h4><ul>
+<li><p>VRPTW 数据集: <strong><a href="https://www.sintef.no/projectweb/top/vrptw/">Solomon-Benchmark</a></strong></p>
+</li>
+<li><p>VRP 数据集: <strong><a href="https://neo.lcc.uma.es/vrp/vrp-instances/">Vrp-Instances</a></strong></p>
+</li>
+<li><p>基于问题实例的测试数据集: <strong><a href="http://people.brunel.ac.uk/~mastjjb/jeb/info.html">OR-Library by J E Beasley</a></strong></p>
+</li>
+</ul>
+<hr>
+<h1 id="算法代码"><a href="#算法代码" class="headerlink" title="算法代码"></a>算法代码</h1><div class="note info">
+            <ol><li><a href="link"> HCF-IMOEA </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于   <a href="https://www.sciencedirect.com/science/article/pii/S0305054823002101">此文章</a> <strong><code>HTML</code></strong></li></ol>
+          </div>
+
+<div class="note info">
+            <ol><li><a href="../zip/NSGA-II-AVNS-Code.zip"> NSGA-II-AVNS </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于    <a href="https://kns.cnki.net/kcms2/article/abstract?v=xNq_RSSxttstktCq-VWRIQS1e6fIAq26YV2DyMFsCVB9NtbxKqFgDZtEE5MiKN1dG5PLmIItcZsrbA9y-tAUQMMLpbYZJEJr4NENoL1ughgxkkSL6gjYdqp7OcHpgSim7TjKF6gvjYE=&amp;uniplatform=NZKPT&amp;language=CHS">此文章</a><strong><code>HTML</code></strong></li></ol>
+          </div>
+
+<div class="note info">
+            <ol><li><a href="../zip/KDCEA-Code.zip"> KDCEA </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于    <a href="https://ieeexplore.ieee.org/document/10497842">此文章</a> <strong><code>HTML</code></strong></li></ol>
+          </div>]]></content>
+  </entry>
+  <entry>
     <title>领域学者</title>
     <url>/cn/link/index.html</url>
     <content><![CDATA[<h3 id="智能制造-与-运筹优化"><a href="#智能制造-与-运筹优化" class="headerlink" title="智能制造 与 运筹优化"></a><p align="center"><font face="黑体" size="5" color="black">智能制造 与 运筹优化</font></p></h3><h5 id="数字孪生"><a href="#数字孪生" class="headerlink" title="数字孪生"></a>数字孪生</h5><ul>
@@ -275,62 +332,5 @@ table th:nth-of-type(2) {
 <li><strong>邓发珩</strong> (车辆路径问题 <a href="https://github.com/dengfaheng">VRP，TSP</a> <code>java</code>)</li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>数据集和算法代码</title>
-    <url>/cn/resources/index.html</url>
-    <content><![CDATA[<h1 id="数据集"><a href="#数据集" class="headerlink" title="数据集"></a>数据集</h1><h4 id="1-生产配送集成调度-IPDS"><a href="#1-生产配送集成调度-IPDS" class="headerlink" title="1. 生产配送集成调度(IPDS)"></a>1. 生产配送集成调度(IPDS)</h4><div class="note info">
-            <ul><li><strong>IPSVRP-BM&amp;STW Dateset（<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（节拍生产线 &amp; 带异构车辆和软时间窗的车辆路径问题）<br>数据集下载：<a href="../zip/IPSVRP-BM-STW-Dateset.zip">IPSVRP-BM&amp;STW Dateset</a><br><a href="../pdf/A%20hybrid%20collaborative%20framework%20for%20integrated%20production%20scheduling%20and%20vehicle%20routing%20problem%20with%20batch%20manufacturing%20and%20soft%20time%20windows.pdf">此文章</a> 提出该数据集<br><a href="link">一个博客</a> 介绍该数据集的形成过程</li></ul>
-          </div>
-
-<div class="note info">
-            <ul><li><strong>Fuzzy-IPDS Dateset（<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（节拍生产线 &amp; 带异构车辆和软时间窗的车辆路径问题 &amp; 模糊旅途时间）<br>数据集下载：<a href="../zip/Fuzzy-IPDS-Dateset.zip">Fuzzy-IPDS Dateset</a><br><a href="link">此文章</a> 提出该数据集<br><a href="link">一个博客</a> 介绍该数据集的形成过程</li></ul>
-          </div>
-
-<div class="note info">
-            <ul><li><strong>IPSVRP-STW&amp;FTT Dateset（<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（节拍生产线 &amp; 软时间窗 &amp; 数量受限的多行程异构车辆 &amp; 模糊旅途时间）<br>数据集下载：<a href="../zip/IPSVRP-STW-FTT-Dateset.zip">IPSVRP-STW&amp;FTT Dateset</a><br><a href="link">此文章</a> 提出该数据集<br><a href="link">一个博客</a> 介绍该数据集的形成过程</li></ul>
-          </div>
-
-
-<p><font color="#428BCA" size="5"><strong>初衷</strong></font>:<br>IPDS问题涉及生产和配送两个阶段的优化。单独来说，生产调度或配送调度的科学研究时间较长，有丰富的基准案例数据集以及优秀的求解算法。<strong>然而，生产与配送集成调度的研究却在基准案例数据集这方面显得相对匮乏</strong>。出于对该问题的复杂性和特殊性的考虑，大部分研究采用随机生成（或部分随即生成）测试实例的方式进行数值实验，但很少有研究将其测试数据集公布出来以供其他研究者使用和验证。为了给相同或者相近的研究提供统一评价对比和度量的基准，我们将所使用的数据集进行公布，以供其他研究者使用，从而方便其进行数值实验对比工作。</p>
-<h4 id="2-其他研究者提供的数据集"><a href="#2-其他研究者提供的数据集" class="headerlink" title="2. 其他研究者提供的数据集"></a>2. 其他研究者提供的数据集</h4><ul>
-<li><p>VRPTW 数据集: <strong><a href="https://www.sintef.no/projectweb/top/vrptw/">Solomon-Benchmark</a></strong></p>
-</li>
-<li><p>VRP 数据集: <strong><a href="https://neo.lcc.uma.es/vrp/vrp-instances/">Vrp-Instances</a></strong></p>
-</li>
-<li><p>基于问题实例的测试数据集: <strong><a href="http://people.brunel.ac.uk/~mastjjb/jeb/info.html">OR-Library by J E Beasley</a></strong></p>
-</li>
-</ul>
-<hr>
-<h1 id="算法代码"><a href="#算法代码" class="headerlink" title="算法代码"></a>算法代码</h1><div class="note info">
-            <ol><li><a href="link"> HCF-IMOEA </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于   <a href="https://www.sciencedirect.com/science/article/pii/S0305054823002101">此文章</a> <strong><code>HTML</code></strong></li></ol>
-          </div>
-
-<div class="note info">
-            <ol><li><a href="../zip/NSGA-II-AVNS-Code.zip"> NSGA-II-AVNS </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于    <a href="https://kns.cnki.net/kcms2/article/abstract?v=xNq_RSSxttstktCq-VWRIQS1e6fIAq26YV2DyMFsCVB9NtbxKqFgDZtEE5MiKN1dG5PLmIItcZsrbA9y-tAUQMMLpbYZJEJr4NENoL1ughgxkkSL6gjYdqp7OcHpgSim7TjKF6gvjYE=&amp;uniplatform=NZKPT&amp;language=CHS">此文章</a><strong><code>HTML</code></strong></li></ol>
-          </div>
-
-<div class="note info">
-            <ol><li><a href="../zip/KDCEA-Code.zip"> KDCEA </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于    <a href="https://ieeexplore.ieee.org/document/10497842">此文章</a> <strong><code>HTML</code></strong></li></ol>
-          </div>]]></content>
-  </entry>
-  <entry>
-    <title>学术论文</title>
-    <url>/cn/publications/index.html</url>
-    <content><![CDATA[<div class="note success">
-            <h3 id="硕士学位论文"><a href="#硕士学位论文" class="headerlink" title="硕士学位论文"></a>硕士学位论文</h3><ol><li><strong>黄铭</strong>, 2023. 快速消费品制造企业生产-配送集成调度研究. 武汉理工大学.<a href="../pdf/(Thesis)%20%E5%BF%AB%E9%80%9F%E6%B6%88%E8%B4%B9%E5%93%81%E5%88%B6%E9%80%A0%E4%BC%81%E4%B8%9A%E7%94%9F%E4%BA%A7-%E9%85%8D%E9%80%81%E9%9B%86%E6%88%90%E8%B0%83%E5%BA%A6%E7%A0%94%E7%A9%B6.pdf"> (Master’s Thesis) </a> <strong><code>PDF</code></strong>;</li></ol>
-          </div>
-
-<div class="note success">
-            <h3 id="发表论文"><a href="#发表论文" class="headerlink" title="发表论文"></a>发表论文</h3><ol><li><p><strong>M. Huang</strong>, S. Huang, B. Du*, J. Guo and Y. Li. Fuzzy Superposition Operation and Knowledge-driven Co-evolutionary Algorithm for Integrated Production Scheduling and Vehicle Routing Problem with Soft Time Windows and Fuzzy Travel Times. <em>IEEE Transactions on Fuzzy Systems</em>, 2024, doi: 10.1109/TFUZZ.2024.3388003.（中科院1区，IF 11.9，TOP）<br><a href="https://ieeexplore.ieee.org/document/10497842"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/KDCEA-Code.zip"> (KDCEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-Dateset.zip">(IPSVRP-STW&amp;FTT Dateset)</a> <strong><code>.zip</code></strong>;<a href="../zip/IPSVRP-STW-FTT-AMPL.zip"> (AMPL) </a> <strong><code>.mod</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-CASE.zip">(CASE)</a> <strong><code>.zip</code></strong></p></li><li><p><strong>Huang, M.</strong>, Du, B. G., Guo, J*. A hybrid collaborative framework for integrated production scheduling and vehicle routing problem with batch manufacturing and soft time windows. <em>Computers &amp; Operations Research</em>, 2023, 159, 106346. <a href="https://doi.org/10.1016/j.cor.2023.106346">https://doi.org/10.1016/j.cor.2023.106346</a>. (中科院2区，IF 4.6，ABS-3)<br><a href="https://www.sciencedirect.com/science/article/pii/S0305054823002101"> (Paper) </a> <strong><code>HTML</code></strong>; <a href="link"> (HCF-IMOEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-BM-STW-Dateset.zip">(IPSVRP-BM&amp;STW Dateset)</a> <strong><code>.zip</code></strong></p></li><li><p><strong>黄铭</strong>, 杜百岗*, 郭钧, 李益兵. 考虑软时间窗限制和模糊旅途时间的生产配送集成调度优化.2023, 40(x): 1–10. DOI: 10.7641/CTA.2023.20920 (EI检索，IF 2.781)<br><a href="https://kns.cnki.net/kcms2/article/abstract?v=xNq_RSSxttstktCq-VWRIQS1e6fIAq26YV2DyMFsCVB9NtbxKqFgDZtEE5MiKN1dG5PLmIItcZsrbA9y-tAUQMMLpbYZJEJr4NENoL1ughgxkkSL6gjYdqp7OcHpgSim7TjKF6gvjYE=&amp;uniplatform=NZKPT&amp;language=CHS"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/NSGA-II-AVNS-Code.zip"> (NSGA-II-AVNS) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/Fuzzy-IPDS-Dateset.zip">(Fuzzy-IPDS Dateset)</a> <strong><code>.zip</code></strong></p></li></ol>
-          </div>
-
-<div class="note warning">
-            <h3 id="工作论文"><a href="#工作论文" class="headerlink" title="工作论文"></a>工作论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
-          </div>
-
-<div class="note warning">
-            <h3 id="会议论文"><a href="#会议论文" class="headerlink" title="会议论文"></a>会议论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
-          </div>]]></content>
   </entry>
 </search>
