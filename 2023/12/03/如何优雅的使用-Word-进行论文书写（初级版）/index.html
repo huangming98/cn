@@ -20,30 +20,40 @@
     var CONFIG = {"hostname":"www.huangm.cn","root":"/cn/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","Muse | Mist":180,"width":250,"display":"always","padding":20,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":"ture","lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="让我们一起做些有挑战的事！">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Ming Huang&#39;s Homepage">
-<meta property="og:url" content="https://www.huangm.cn/cn/homepage/index.html">
+  <meta name="description" content="1. 多级标题的设置 构建一个视觉舒服且直观的大纲列表对于开始论文的书写显得格外的重要。而word默认给出的标题样式模板对于书写论文来说太疏松了。本节主要介绍如何自定义一套适合自己的word标题模板。如果对各级标题进行逐个格式化，并为其手动添加序号（如1.1 |第1.1章|第一章 等）就显得不够优雅。有没有一种方式能让我们就像书写markdown一样更加的丝滑那？  首先，我们新建一个word 对">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何优雅的使用 Word 进行论文书写（初级版）">
+<meta property="og:url" content="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/index.html">
 <meta property="og:site_name" content="Ming Huang&#39;s Homepage">
-<meta property="og:description" content="让我们一起做些有挑战的事！">
+<meta property="og:description" content="1. 多级标题的设置 构建一个视觉舒服且直观的大纲列表对于开始论文的书写显得格外的重要。而word默认给出的标题样式模板对于书写论文来说太疏松了。本节主要介绍如何自定义一套适合自己的word标题模板。如果对各级标题进行逐个格式化，并为其手动添加序号（如1.1 |第1.1章|第一章 等）就显得不够优雅。有没有一种方式能让我们就像书写markdown一样更加的丝滑那？  首先，我们新建一个word 对">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/titletype.jpg">
+<meta property="og:image" content="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/title.NO.jpg">
+<meta property="og:image" content="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/Fig.jpg  ">
+<meta property="og:image" content="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/table.jpg">
+<meta property="og:image" content="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/index.jpg">
+<meta property="og:image" content="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/mathtypesize.jpg">
+<meta property="og:image" content="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/mathtypesize2.jpg">
+<meta property="article:published_time" content="2023-12-03T13:06:06.000Z">
+<meta property="article:modified_time" content="2024-10-20T14:00:05.743Z">
 <meta property="article:author" content="黄铭">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/titletype.jpg">
 
-<link rel="canonical" href="https://www.huangm.cn/cn/homepage/">
+<link rel="canonical" href="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Ming Huang's Homepage</title>
+  <title>如何优雅的使用 Word 进行论文书写（初级版） | Ming Huang's Homepage</title>
   
 
 
@@ -193,9 +203,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -211,10 +222,9 @@
       <meta itemprop="name" content="Ming Huang's Homepage">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/" class="post-title-link" itemprop="url">如何优雅的使用 Word 进行论文书写（初级版）</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          如何优雅的使用 Word 进行论文书写（初级版）
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -233,7 +243,14 @@
                 <time title="修改时间：2024-10-20 22:00:05" itemprop="dateModified" datetime="2024-10-20T22:00:05+08:00">2024-10-20</time>
               </span>
 
-          <br>
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -258,7 +275,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="1-多级标题的设置"><a href="#1-多级标题的设置" class="headerlink" title="1. 多级标题的设置"></a>1. 多级标题的设置</h1><blockquote>
+        <h1 id="1-多级标题的设置"><a href="#1-多级标题的设置" class="headerlink" title="1. 多级标题的设置"></a>1. 多级标题的设置</h1><blockquote>
 <p>构建一个视觉舒服且直观的大纲列表对于开始论文的书写显得格外的重要。而word默认给出的标题样式模板对于书写论文来说太疏松了。本节主要介绍如何自定义一套适合自己的word标题模板。<br>如果对各级标题进行逐个格式化，并为其手动添加序号（如1.1 |第1.1章|第一章 等）就显得不够优雅。有没有一种方式能让我们就像书写markdown一样更加的丝滑那？</p>
 </blockquote>
 <p>首先，我们新建一个word 对 <code>开始</code>→<code>样式</code>中的我们所预想的格式、字体大小、段落间距等进行预设。<br><strong>主要涉及正文以及标题、1，2，3级标题</strong></p>
@@ -302,127 +319,64 @@
 <p><strong>参考源</strong><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1E5411K7By/?spm_id_from=333.788&amp;vd_source=49b8bd33ca1c49c048c6fc297b7c91d2">1.优雅搞定Word论文排版–b站视频</a></p>
 <p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1rr4y1T71y?spm_id_from=333.999.0.0&amp;vd_source=49b8bd33ca1c49c048c6fc297b7c91d2">2.EndNote中英文文献混排格式设置–b站视频</a></p>
 
-      
     </div>
 
     
     
     
+
+<div> 
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script type="text/javascript" src="http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js"></script>
+  <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
+
+  <p><span>标题:</span>如何优雅的使用 Word 进行论文书写（初级版）</a></p>
+  <p><span>作者:</span>黄铭</a></p>
+  <p><span>发布于</span>2023-12-03   21:06:06</p>
+  <p><span>更新于</span>2024-10-20   22:00:05</p>
+  <p><span>原始链接:</span><a href="/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/" title="如何优雅的使用 Word 进行论文书写（初级版）">https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/"  aria-label="复制成功！"></i></span>
+  </p>
+  <p><span>许可协议:</span><i class="fa fa-creative-commons" /></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)"> 署名-非商业性使用-禁止演绎 4.0 国际(CC BY-NC-ND 4.0)</a> 转载请保留原文链接及作者。</p>
+</div>
+<script>
+    var clipboard = new Clipboard('.fa-clipboard');
+    clipboard.on('success', $(function(){
+      $(".fa-clipboard").click(function(){
+        swal({
+          title: "",
+          text: '复制成功！',
+          html: false,
+          timer: 500,
+          showConfirmButton: false
+        });
+      });
+    }));
+</script>
+ </div>
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.huangm.cn/cn/2022/09/16/blog1/">
+        
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/cn/images/pic.png">
-      <meta itemprop="name" content="黄铭">
-      <meta itemprop="description" content="让我们一起做些有挑战的事！">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Ming Huang's Homepage">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/cn/2022/09/16/blog1/" class="post-title-link" itemprop="url">集成调度数据集</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2022-09-16 23:53:42" itemprop="dateCreated datePublished" datetime="2022-09-16T23:53:42+08:00">2022-09-16</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-10-20 19:32:12" itemprop="dateModified" datetime="2024-10-20T19:32:12+08:00">2024-10-20</time>
-              </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>3k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>5 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="1-配送-121TTT"><a href="#1-配送-121TTT" class="headerlink" title="1 配送 121TTT"></a>1 配送 121TTT</h1><h2 id="1-1-配送集成ADSAS1"><a href="#1-1-配送集成ADSAS1" class="headerlink" title="1.1 配送集成ADSAS1"></a>1.1 配送集成ADSAS1</h2><p> 简介：生产与配送集成调度是近些年来热门的研究领域。大多数学者认为 <a target="_blank" rel="noopener" href="https://sci-hub.wf/10.1287/opre.28.6.1436">(Potts, 1980)</a>是该领域的开篇之作。随着该领域专家学者的不断拓展和深入，集成调度的相关研究得到了空前的发展。各方面的理论和方法也不断被提出，可参照综述文献 <a target="_blank" rel="noopener" href="https://sci-hub.wf/10.1287/opre.1080.0688">(Chen, 2010)</a>,<a target="_blank" rel="noopener" href="https://sci-hub.wf/10.1016/j.cie.2016.12.010">(Moons et al., 2017)</a>, <a target="_blank" rel="noopener" href="https://sci-hub.wf/10.1080/00207543.2020.1762019">(Kumar et al., 2020)</a>进行系统的梳理。</p>
-<blockquote>
-<p>根据问题特征我们对如下数据集进行简要描述：</p>
-<ul>
-<li>生产调度：(作业车间调度、流水车间调度（流水线、置换、混流）、分布式车间调度、柔性调度、模糊调度、动态调度 等)</li>
-<li>配送调度：(运输问题、车辆路径问题（容量限制、时间窗约束、多行程等））<br>我们所提出的数据集所应用的模型涉及：<br><strong>流水线生产 &amp; 车辆路径问题（考虑容量限制、时间窗约束、多行程）&amp;模糊旅途时间</strong></li>
-</ul>
-</blockquote>
-<h2 id="1-1-配送集成ADSAS1-1"><a href="#1-1-配送集成ADSAS1-1" class="headerlink" title="1.1 配送集成ADSAS1"></a>1.1 配送集成ADSAS1</h2><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">var _prevOnload = window.onload;</span><br><span class="line"></span><br><span class="line">window.onload = function () {</span><br><span class="line">    var switchLang = document.getElementsByClassName("menu-item menu-item-switch-to-chinese")[0];</span><br><span class="line">    switchLang.onclick = function () {</span><br><span class="line">        var href = window.location.href;</span><br><span class="line">        var includesKeywords = href.includes("/homepage/") || href.includes("/home/")|| href.includes("/publications/") || href.includes("/resources/")|| href.includes("/link/")|| href.includes("/archives/")|| href.includes("/Switch to Chinese/");</span><br><span class="line">        if (includesKeywords) {</span><br><span class="line">            window.location.href = href.replace('.cn/', '.cn/cn/');</span><br><span class="line"></span><br><span class="line">        }</span><br><span class="line">        else {</span><br><span class="line">            window.location.href = "https://www.huangm.cn/cn";</span><br><span class="line">        }</span><br><span class="line">        if (typeof (_prevOnload) === 'function') {</span><br><span class="line">            _prevOnload();</span><br><span class="line">        }</span><br><span class="line">        return false;</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-<h2 id="1-1-配送集成ADSAS1-2"><a href="#1-1-配送集成ADSAS1-2" class="headerlink" title="1.1 配送集成ADSAS1"></a>1.1 配送集成ADSAS1</h2><p>$$<br>\begin{equation}<br> \textcolor{red} {w_{k+1}=w_k-a_k \tilde{g}\left(w_k, \eta_k\right) ,k=1,2,3,\dots}<br>\end{equation}<br>$$</p>
-<h3 id="1-1-配送集成ADSAS1-3"><a href="#1-1-配送集成ADSAS1-3" class="headerlink" title="1.1 配送集成ADSAS1"></a>1.1 配送集成ADSAS1</h3><p>This simple example can illustrate why the RM algorithm converges.</p>
-<h3 id="1-4配送集成"><a href="#1-4配送集成" class="headerlink" title="1.4配送集成"></a>1.4配送集成</h3><ul>
-<li>When $w_k&gt;w^*$, we have $g\left(w_k\right)&gt;0$. Then, $w_{k+1}=w_k-a_k g\left(w_k\right)&lt;w_k$. If $a_k g\left(w_k\right)$ is sufficiently small, we have $w^*&lt;w_{k+1}&lt;w_k$. As a result, $w_{k+1}$ is closer to $w^*$ than $w_k$.</li>
-<li>When $w_k&lt;w^*$, we have $g\left(w_k\right)&lt;0$. Then, $w_{k+1}=w_k-a_k g\left(w_k\right)&gt;w_k$. If $\left|a_k g\left(w_k\right)\right|$ is sufficiently small, we have $w^*&gt;w_{k+1}&gt;w_k$. As a result, $w_{k+1}$ is closer to $w^*$ than $w_k$.</li>
-</ul>
-<p>$$<br>\begin{aligned}<br>\tilde{g}(w, \eta) &amp; = w-x \<br>&amp; =w-x+\mathbb{E}[X] -\mathbb{E}[X] \<br>&amp; =(w-\mathbb{E}[X]) + (\mathbb{E}[X]-x)\<br>&amp; =g(w)+\eta<br>\end{aligned}<br>$$</p>
-<p>$$<br>\begin{equation}<br>w_{k+1} = w_k-\alpha_k \textcolor{blue} {\nabla_w f\left(w_k, x_k\right)}, \end{equation}<br>$$<br>where $x_k$ is the sample collected at time step $k$. It relies on stochastic samples ${x_k}$</p>
-<ol>
-<li><p>Compared to the gradient descent algorithm: Replace the true gradient $\mathbb{E}\left[\nabla_w f\left(w_k, X\right)\right]$ by the stochastic gradient $\nabla_w f\left(w_k, x_k\right)$. </p>
-</li>
-<li><p>Compared to the batch gradient descent method: let $n=1$.</p>
-</li>
-<li><p><strong>From GD to SGD</strong>: The stochastic gradient $\nabla_w f\left(w_k, x_k\right)$ can be viewed as a noisy measurement of the true gradient $\mathbb{E}\left[\nabla_w f(w, X)\right]$:</p>
-</li>
-</ol>
-<p>$$<br>\nabla_w f\left(w_k, x_k\right)=\mathbb{E}\left[\nabla_w f(w, X)\right]+\underbrace{\nabla_w f\left(w_k, x_k\right)-\mathbb{E}\left[\nabla_w f(w, X)\right]}_\eta .<br>$$</p>
-<p>$$<br>\begin{aligned}<br>\mathbb{E}(\eta) &amp; =\mathbb{E}(\nabla_w f\left(w_k, x_k\right)-\mathbb{E}\left[\nabla_w f(w, X)\right])\<br>&amp; =\mathbb{E}_{x_k}[\nabla_w f\left(w_k, x_k\right)]-\mathbb{E}_X\left[\nabla_w f(w, X)\right]=0<br>\end{aligned}<br>$$</p>
-<hr>
-
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/cn/2022/09/16/blog1/" rel="prev" title="集成调度数据集">
+      <i class="fa fa-chevron-left"></i> 集成调度数据集
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -475,6 +429,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-%E5%A4%9A%E7%BA%A7%E6%A0%87%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE"><span class="nav-number">1.</span> <span class="nav-text">1. 多级标题的设置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-%E5%9B%BE%E3%80%81%E8%A1%A8%E7%9A%84%E6%8F%92%E5%85%A5%E4%B8%8E%E7%B4%A2%E5%BC%95"><span class="nav-number">2.</span> <span class="nav-text">2.图、表的插入与索引</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-%E5%9B%BE%E7%9A%84%E9%A2%98%E6%B3%A8%E6%8F%92%E5%85%A5"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 图的题注插入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-%E4%B8%89%E7%BA%BF%E8%A1%A8%E7%9A%84%E6%8F%92%E5%85%A5"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 三线表的插入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-3-%E6%AD%A3%E6%96%87%E4%B8%AD%E7%B4%A2%E5%BC%95%E5%9B%BE%E3%80%81%E8%A1%A8"><span class="nav-number">2.3.</span> <span class="nav-text">2.3 正文中索引图、表</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-MathType-%E7%9A%84%E7%BC%96%E5%8F%B7%E3%80%81%E7%B4%A2%E5%BC%95"><span class="nav-number">3.</span> <span class="nav-text">3. MathType 的编号、索引</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-EndNote-%E7%9A%84%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%AD%E8%8B%B1%E6%96%87%E7%8C%AE%E6%B7%B7%E6%8E%92%EF%BC%89"><span class="nav-number">4.</span> <span class="nav-text">4. EndNote 的使用（中英文献混排）</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -636,59 +591,6 @@ setInterval("createtime()",250);
   
 
   
-      
-
-<script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
-        }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script>
-
-    
 
   
 
