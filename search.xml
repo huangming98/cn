@@ -509,54 +509,6 @@ w_{k+1} = w_k-\alpha_k \textcolor{blue} {\nabla_w f\left(w_k, x_k\right)}, \end{
 ]]></content>
   </entry>
   <entry>
-    <title>如何优雅的使用 Word 进行论文书写（初级版）</title>
-    <url>/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="1-多级标题的设置"><a href="#1-多级标题的设置" class="headerlink" title="1. 多级标题的设置"></a>1. 多级标题的设置</h1><blockquote>
-<p>构建一个视觉舒服且直观的大纲列表对于开始论文的书写显得格外的重要。而word默认给出的标题样式模板对于书写论文来说太疏松了。本节主要介绍如何自定义一套适合自己的word标题模板。<br>如果对各级标题进行逐个格式化，并为其手动添加序号（如1.1 |第1.1章|第一章 等）就显得不够优雅。有没有一种方式能让我们就像书写markdown一样更加的丝滑那？</p>
-</blockquote>
-<p>首先，我们新建一个word 对 <code>开始</code>→<code>样式</code>中的我们所预想的格式、字体大小、段落间距等进行预设。<br><strong>主要涉及正文以及标题、1，2，3级标题</strong></p>
-<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/titletype.jpg" width="80%" height="50%"></div>
-
-
-<p><strong>注意</strong> :记着更改各级标题时,每个都要勾选基于该模板的新文档，这样下次新建 word 时直接使用已经更改好的模板即可。</p>
-<p><strong>然后就是为各级标题添加序号</strong></p>
-<p>进入：<code>开始</code>→<code>多级序号</code>→<code>定义新的多级列表</code> 按需求进行设置即可:</p>
-<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/title.NO.jpg" width="80%" height="50%"></div>
-
-<p><strong>注意</strong> ：为各级标题添加了序号后，实际是把标题样式进行了更新，所以完成编号后需要再次为每个标题进行勾选基于该模板的新文档，不需要改动别的什么直接按  <code>确定</code> 即可，这样下次新建 word 时直接使用已经更改好的带编号的模板了。</p>
-<hr>
-<h1 id="2-图、表的插入与索引"><a href="#2-图、表的插入与索引" class="headerlink" title="2.图、表的插入与索引"></a>2.图、表的插入与索引</h1><h2 id="2-1-图的题注插入"><a href="#2-1-图的题注插入" class="headerlink" title="2.1 图的题注插入"></a>2.1 图的题注插入</h2><p><strong><em>这一步的前提是 你的标题编号是按上述形式插入的,而非手动写的。这样 word 才能识别你的编号从而插入题注里</em></strong><br>插入图片后  一般选用嵌入式（默认） 右键后选自 <code>插入题注</code> 比如我们想要 <code>图 1.1</code> 新建标签 <code>图</code> 选择编号的格式。示例如下：</p>
-<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/Fig.jpg  " width="60%" height="50%"></div>
-
-<p>设置好后  在为接下来的插入的图进行题注时 word 会自动识别其应该是<strong>图5还是图6</strong>。无需你在考虑图几，你仅需要输入图的名字即可。</p>
-<h2 id="2-2-三线表的插入"><a href="#2-2-三线表的插入" class="headerlink" title="2.2 三线表的插入"></a>2.2 三线表的插入</h2><p>首选插入一个表 然后再 <code>表格样式里选择新建表格样式</code>然后进行如下操作 </p>
-<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/table.jpg" width="60%" height="50%"></div>
-
-<p><strong>注意：</strong> <em>记着要勾选基于该模板的新文档，这样下次新建时直接使用已经更改好的三线表了。<br>如果更改后发现没有找到 保存并退出 word 然后重新打开即可看到三线表出现在表格样式里。同样的方法进行表的题注的插入</em></p>
-<h2 id="2-3-正文中索引图、表"><a href="#2-3-正文中索引图、表" class="headerlink" title="2.3 正文中索引图、表"></a>2.3 正文中索引图、表</h2><p>选择要插入的位置，点击功能栏 <code>插入下的交叉引用</code> 可进行如图操作</p>
-<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/index.jpg" width="60%" height="50%"></div>
-
-<p> <strong>注：</strong> <em>当我们插入新图后，图的序号发生改变但是插入正文中的索引未变 ，不要慌 此时我能只需要更新插入引用的域即可 全选后按F9 更新全文的域</em></p>
-<hr>
-<h1 id="3-MathType-的编号、索引"><a href="#3-MathType-的编号、索引" class="headerlink" title="3. MathType 的编号、索引"></a>3. MathType 的编号、索引</h1><p>目前仅可以逐项公式的编号，即点击 <code>MathType下的右编号</code>在弹出的编辑器里输入公式 会自动的公式居中以及右侧编号。(目前还没有找到为已存在的公式进行编号的方法)</p>
-<p>编号的格式可以在 <code>插入编号--格式化</code>里进行更改，选用带章节不带章节的格式以及采用何种连字符等<br>正文索引是也较为方便 点击 <code>插入引用后双击公式编号即可</code>  当你删除公式时编号会自动的更新。</p>
-<p>公式的批量大小设置 在编辑器对公式的大小进行定义后</p>
-<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/mathtypesize.jpg" width="70%" height="50%"></div>
-<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/mathtypesize2.jpg" width="70%" height="50%"></div>
-
-
-<h1 id="4-EndNote-的使用（中英文献混排）"><a href="#4-EndNote-的使用（中英文献混排）" class="headerlink" title="4. EndNote 的使用（中英文献混排）"></a>4. EndNote 的使用（中英文献混排）</h1><ol>
-<li><p>去除endnotes 中的域 （不让其跳转，使之固定以便修改参考文献格式）<br>去除word中因使用mendeley或endnote等文献管理软件而产生的域代码。<br>%CTRL+A 全选文章；<br>%CTRL+6 去除全文域代码。</p>
-</li>
-<li><p>使用：CTRL+SHIFT+F9（Fn+F9）：去除选中的单个域代码，注不能跨页，有时候多选时也可能不生效，所以当参考文献留一篇索引版  ，然后边选中边去除域，去除完毕后 复制一份参考文献，然后更新参考目录  应为空才算去除完全，把刚刚复制的粘贴上，修改格式。</p>
-</li>
-</ol>
-<p><strong>注意:</strong> 中途不能更新参考目录  ，如果更新了会将未去除域的参考文献索引重新编排。</p>
-<p><strong>参考源</strong><br><a href="https://www.bilibili.com/video/BV1E5411K7By/?spm_id_from=333.788&amp;vd_source=49b8bd33ca1c49c048c6fc297b7c91d2">1.优雅搞定Word论文排版—b站视频</a></p>
-<p><a href="https://www.bilibili.com/video/BV1rr4y1T71y?spm_id_from=333.999.0.0&amp;vd_source=49b8bd33ca1c49c048c6fc297b7c91d2">2.EndNote中英文文献混排格式设置—b站视频</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Python Basic Notes</title>
     <url>/cn/2024/07/13/Python-Basic-Notes/</url>
     <content><![CDATA[<h1 id="PYTHON-基础"><a href="#PYTHON-基础" class="headerlink" title="PYTHON 基础"></a>PYTHON 基础</h1><h2 id="1-python-流程格式"><a href="#1-python-流程格式" class="headerlink" title="1. python 流程格式"></a>1. python 流程格式</h2><h3 id="1-1-变量赋值、运算与字符串表示、处理、判断"><a href="#1-1-变量赋值、运算与字符串表示、处理、判断" class="headerlink" title="1.1 变量赋值、运算与字符串表示、处理、判断"></a>1.1 变量赋值、运算与字符串表示、处理、判断</h3><figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">name1 = name2 = name3 = <span class="string">'文件系统'</span></span><br><span class="line">name1, name2, name3 = <span class="string">"文件"</span>, <span class="string">"系统"</span>, <span class="string">"管理"</span></span><br><span class="line">name = <span class="string">""" </span></span><br><span class="line"><span class="string">ni</span></span><br><span class="line"><span class="string">hao</span></span><br><span class="line"><span class="string">a</span></span><br><span class="line"><span class="string">"""</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">##变量多行用 """....."""</span></span><br></pre></td></tr></tbody></table></figure>
@@ -1022,6 +974,54 @@ w_{k+1} = w_k-\alpha_k \textcolor{blue} {\nabla_w f\left(w_k, x_k\right)}, \end{
 ]]></content>
   </entry>
   <entry>
+    <title>如何优雅的使用 Word 进行论文书写（初级版）</title>
+    <url>/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="1-多级标题的设置"><a href="#1-多级标题的设置" class="headerlink" title="1. 多级标题的设置"></a>1. 多级标题的设置</h1><blockquote>
+<p>构建一个视觉舒服且直观的大纲列表对于开始论文的书写显得格外的重要。而word默认给出的标题样式模板对于书写论文来说太疏松了。本节主要介绍如何自定义一套适合自己的word标题模板。<br>如果对各级标题进行逐个格式化，并为其手动添加序号（如1.1 |第1.1章|第一章 等）就显得不够优雅。有没有一种方式能让我们就像书写markdown一样更加的丝滑那？</p>
+</blockquote>
+<p>首先，我们新建一个word 对 <code>开始</code>→<code>样式</code>中的我们所预想的格式、字体大小、段落间距等进行预设。<br><strong>主要涉及正文以及标题、1，2，3级标题</strong></p>
+<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/titletype.jpg" width="80%" height="50%"></div>
+
+
+<p><strong>注意</strong> :记着更改各级标题时,每个都要勾选基于该模板的新文档，这样下次新建 word 时直接使用已经更改好的模板即可。</p>
+<p><strong>然后就是为各级标题添加序号</strong></p>
+<p>进入：<code>开始</code>→<code>多级序号</code>→<code>定义新的多级列表</code> 按需求进行设置即可:</p>
+<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/title.NO.jpg" width="80%" height="50%"></div>
+
+<p><strong>注意</strong> ：为各级标题添加了序号后，实际是把标题样式进行了更新，所以完成编号后需要再次为每个标题进行勾选基于该模板的新文档，不需要改动别的什么直接按  <code>确定</code> 即可，这样下次新建 word 时直接使用已经更改好的带编号的模板了。</p>
+<hr>
+<h1 id="2-图、表的插入与索引"><a href="#2-图、表的插入与索引" class="headerlink" title="2.图、表的插入与索引"></a>2.图、表的插入与索引</h1><h2 id="2-1-图的题注插入"><a href="#2-1-图的题注插入" class="headerlink" title="2.1 图的题注插入"></a>2.1 图的题注插入</h2><p><strong><em>这一步的前提是 你的标题编号是按上述形式插入的,而非手动写的。这样 word 才能识别你的编号从而插入题注里</em></strong><br>插入图片后  一般选用嵌入式（默认） 右键后选自 <code>插入题注</code> 比如我们想要 <code>图 1.1</code> 新建标签 <code>图</code> 选择编号的格式。示例如下：</p>
+<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/Fig.jpg  " width="60%" height="50%"></div>
+
+<p>设置好后  在为接下来的插入的图进行题注时 word 会自动识别其应该是<strong>图5还是图6</strong>。无需你在考虑图几，你仅需要输入图的名字即可。</p>
+<h2 id="2-2-三线表的插入"><a href="#2-2-三线表的插入" class="headerlink" title="2.2 三线表的插入"></a>2.2 三线表的插入</h2><p>首选插入一个表 然后再 <code>表格样式里选择新建表格样式</code>然后进行如下操作 </p>
+<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/table.jpg" width="60%" height="50%"></div>
+
+<p><strong>注意：</strong> <em>记着要勾选基于该模板的新文档，这样下次新建时直接使用已经更改好的三线表了。<br>如果更改后发现没有找到 保存并退出 word 然后重新打开即可看到三线表出现在表格样式里。同样的方法进行表的题注的插入</em></p>
+<h2 id="2-3-正文中索引图、表"><a href="#2-3-正文中索引图、表" class="headerlink" title="2.3 正文中索引图、表"></a>2.3 正文中索引图、表</h2><p>选择要插入的位置，点击功能栏 <code>插入下的交叉引用</code> 可进行如图操作</p>
+<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/index.jpg" width="60%" height="50%"></div>
+
+<p> <strong>注：</strong> <em>当我们插入新图后，图的序号发生改变但是插入正文中的索引未变 ，不要慌 此时我能只需要更新插入引用的域即可 全选后按F9 更新全文的域</em></p>
+<hr>
+<h1 id="3-MathType-的编号、索引"><a href="#3-MathType-的编号、索引" class="headerlink" title="3. MathType 的编号、索引"></a>3. MathType 的编号、索引</h1><p>目前仅可以逐项公式的编号，即点击 <code>MathType下的右编号</code>在弹出的编辑器里输入公式 会自动的公式居中以及右侧编号。(目前还没有找到为已存在的公式进行编号的方法)</p>
+<p>编号的格式可以在 <code>插入编号--格式化</code>里进行更改，选用带章节不带章节的格式以及采用何种连字符等<br>正文索引是也较为方便 点击 <code>插入引用后双击公式编号即可</code>  当你删除公式时编号会自动的更新。</p>
+<p>公式的批量大小设置 在编辑器对公式的大小进行定义后</p>
+<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/mathtypesize.jpg" width="70%" height="50%"></div>
+<div align="center"><img src="https://www.huangm.cn/cn/2023/12/03/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E4%BD%BF%E7%94%A8-Word-%E8%BF%9B%E8%A1%8C%E8%AE%BA%E6%96%87%E4%B9%A6%E5%86%99%EF%BC%88%E5%88%9D%E7%BA%A7%E7%89%88%EF%BC%89/mathtypesize2.jpg" width="70%" height="50%"></div>
+
+
+<h1 id="4-EndNote-的使用（中英文献混排）"><a href="#4-EndNote-的使用（中英文献混排）" class="headerlink" title="4. EndNote 的使用（中英文献混排）"></a>4. EndNote 的使用（中英文献混排）</h1><ol>
+<li><p>去除endnotes 中的域 （不让其跳转，使之固定以便修改参考文献格式）<br>去除word中因使用mendeley或endnote等文献管理软件而产生的域代码。<br>%CTRL+A 全选文章；<br>%CTRL+6 去除全文域代码。</p>
+</li>
+<li><p>使用：CTRL+SHIFT+F9（Fn+F9）：去除选中的单个域代码，注不能跨页，有时候多选时也可能不生效，所以当参考文献留一篇索引版  ，然后边选中边去除域，去除完毕后 复制一份参考文献，然后更新参考目录  应为空才算去除完全，把刚刚复制的粘贴上，修改格式。</p>
+</li>
+</ol>
+<p><strong>注意:</strong> 中途不能更新参考目录  ，如果更新了会将未去除域的参考文献索引重新编排。</p>
+<p><strong>参考源</strong><br><a href="https://www.bilibili.com/video/BV1E5411K7By/?spm_id_from=333.788&amp;vd_source=49b8bd33ca1c49c048c6fc297b7c91d2">1.优雅搞定Word论文排版—b站视频</a></p>
+<p><a href="https://www.bilibili.com/video/BV1rr4y1T71y?spm_id_from=333.999.0.0&amp;vd_source=49b8bd33ca1c49c048c6fc297b7c91d2">2.EndNote中英文文献混排格式设置—b站视频</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>about</title>
     <url>/cn/about/index.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -1036,92 +1036,91 @@ w_{k+1} = w_k-\alpha_k \textcolor{blue} {\nabla_w f\left(w_k, x_k\right)}, \end{
 ]]></content>
   </entry>
   <entry>
-    <title>欢迎来到我的学术主页</title>
-    <url>/cn/home/index.html</url>
-    <content><![CDATA[<h1 id="最新消息-boom"><a href="#最新消息-boom" class="headerlink" title="最新消息(:boom:)"></a>最新消息(<span class="github-emoji"><span>💥</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a5.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>)</h1><div class="note danger">
-            <ul><li><font color="blue">2024. 04</font> — 发表论文在IEEE 模糊系统期刊上.<br><font size="3"> <b>论文索引 : M. Huang</b> , S. Huang, B. Du*, J. Guo and Y. Li, 2024. Fuzzy Superposition Operation and Knowledge-driven Co-evolutionary Algorithm for Integrated Production Scheduling and Vehicle Routing Problem with Soft Time Windows and Fuzzy Travel Times. <em>IEEE Transactions on Fuzzy Systems</em>, doi: 10.1109/TFUZZ.2024.3388003. <a href="https://doi.org/10.1016/j.cor.2023.106346">https://doi.org/10.1016/j.cor.2023.106346</a> (中科院1区，IF 11.9, TOP) </font><br><a href="https://ieeexplore.ieee.org/document/10497842"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/KDCEA-Code.zip"> (KDCEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-Dateset.zip">(IPSVRP-STW&amp;FTT Dateset)</a> <strong><code>.zip</code></strong>;<a href="../zip/IPSVRP-STW-FTT-AMPL.zip"> (AMPL) </a> <strong><code>.mod</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-CASE.zip">(CASE)</a> <strong><code>.zip</code></strong></li></ul>
-          </div>
-<div class="note danger">
-            <ul><li><font color="blue">2023. 11</font> “华为杯”第二十届中国研究生数学建模竞赛 —<strong>二等奖</strong><br>建模题目：大规模创新竞赛评审方案优化研究</li></ul>
-          </div>
-<hr>
-<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p><strong>黄铭</strong>，男，1999年出生于河北省邢台市。目前在北京理工大学-机械与车辆学院攻读机械工程博士学位。<br>如有任何问题，可以与我联系 E-mail（ <span class="github-emoji"><span>✉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2709.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> ）： huangming @bit.edu.cn.<br>地址：北京市海淀区中关村南大街5号 北京理工大学 100081 .<br><!-- 让表格居中显示的风格 --></p>
-<style>
-.center 
-{
-  display: table;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-table th:first-of-type {
-    width: 460pt;
-}
-table th:nth-of-type(2) {
-    width: 600pt;
-}
-</style>
-
-<div class="center">
-
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:left"><span class="github-emoji"><span>🔍</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>   研究兴趣</th>
-<th style="text-align:left"><span class="github-emoji"><span>🎓</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>   教育背景</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><li> <b>深度强化学习、进化计算</b> </li><li> <b>机器人集群调度</b> </li><li> <b>人机协作优化</b> </li><li>多阶段集成调度</li><li>复杂系统建模与优化</li><li>动态多目标优化</li></td>
-<td style="text-align:left"><li><b>2023. 09 - 2027. 07 北京理工大学 机械工程 博士学位</b></li><li>2020. 09 - 2023. 07 武汉理工大学 工业工程 硕士学位</li><li>2016. 09 - 2020. 07 河北大学 质量管理工程 学士学位</li><li>2013. 09 - 2016. 07 河北省邢台市第一中学 高中  </li></td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2 id=""><a href="#" class="headerlink" title=""></a><div class="tabs" id="yearlist"><ul class="nav-tabs"><li class="tab"><a href="#yearlist-1">2023 年度计划清单 <span class="github-emoji"><span>📋</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cb.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></a></li><li class="tab active"><a href="#yearlist-2">2024 年度计划清单 <span class="github-emoji"><span>📋</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cb.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></a></li></ul><div class="tab-content"><div class="tab-pane" id="yearlist-1"><p><strong>2023 To Do list <span class="github-emoji"><span>🎯</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3af.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></strong><br><span class="github-emoji"><span>✔</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> 通过博士申请-考核<br><span class="github-emoji"><span>✔</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> 获得硕士学位<br><span class="github-emoji"><span>➖</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> 录用至少3篇论文（Progress: 2/3）<br><span class="github-emoji"><span>✖</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2716.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> 提高英语听力水平<br><span class="github-emoji"><span>✔</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> 控制体重在110-120斤之间<br><span class="github-emoji"><span>➖</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> 攒钱，准备植发不想做秃顶男孩。<br><strong><em>寄语: 人的一生中有很多事情值得一做，最重要的是去做。<span class="github-emoji"><span>🏃</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c3.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></em></strong></p></div><div class="tab-pane active" id="yearlist-2"><!--**2024 To Do list :dart:**
-:black_square_button: 录用至少3篇论文 :memo:（Progress: 1/3）
-:black_square_button: 读完3文学类小说 :books:（Progress: 0/3）
-:black_square_button: 提高自己的英语听力和交流水平 :earth_americas: 
-:black_square_button: 控制体重在55-60 Kg，保护好腹肌！ :muscle:
-:black_square_button: 5 公里配速进入5 min :running:
-:black_square_button: 攒3万元钱，想办法经济独立！ :moneybag:
-***Words I Wanted To Say：人生的目标不应该是成功和名利，而是真正做到以自己想要的方式度过一生 :low_brightness:***--></div></div></div></h2><h1 id="我的导师"><a href="#我的导师" class="headerlink" title="我的导师"></a>我的导师</h1><ul>
-<li><a href="https://me.bit.edu.cn/szdw/jsml/zzgcx/gygcyjs/sssds13/13ddf65bcbdf4f5c83acd440457ee9de.htm"><strong>黄思翰</strong></a> 副教授（我的博士导师）<br><br></li>
-<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201901/t20190103_351115.shtml"><strong>杜百岗</strong></a> 副教授（我的硕士导师）<br><br></li>
-<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201510/t20151014_200361.shtml"><strong>郭钧</strong></a> 副教授（我的硕士第二导师）</li>
+    <title>领域学者</title>
+    <url>/cn/link/index.html</url>
+    <content><![CDATA[<h3 id="智能制造-与-运筹优化"><a href="#智能制造-与-运筹优化" class="headerlink" title="智能制造 与 运筹优化"></a><p align="center"><font face="黑体" size="5" color="black">智能制造 与 运筹优化</font></p></h3><h5 id="数字孪生"><a href="#数字孪生" class="headerlink" title="数字孪生"></a>数字孪生</h5><ul>
+<li><a href="https://www.kth.se/profile/lihuiw/"><strong>王力翚</strong></a>（瑞典皇家理工学院(KTH)可持续生产系统-加拿大工程院院士）</li>
+<li><a href="https://shi.buaa.edu.cn/taofei/zh_CN/index.htm"><strong>陶飞</strong></a>（北京航空航天大学-科学技术研究院）</li>
+<li><a href="https://me.bit.edu.cn/szdw/jsml/zzgcx/gygcyjs/sssds13/13ddf65bcbdf4f5c83acd440457ee9de.htm"><strong>黄思翰</strong></a>（北京理工大学 - 机械与车辆学院）</li>
+<li><a href="https://person.zju.edu.cn/baicun#949984"><strong>王柏村</strong></a>（浙江大学 - 机械工程学院）<h5 id="车间调度领域"><a href="#车间调度领域" class="headerlink" title="车间调度领域"></a>车间调度领域</h5></li>
+<li><a href="https://www.au.tsinghua.edu.cn/info/1107/1558.htm"><strong>王凌</strong></a>（清华大学-自动化学院）</li>
+<li><a href="http://mse.hust.edu.cn/info/1143/1387.htm"><strong>高亮</strong></a>（华中科技大学-机械学院）</li>
+<li><a href="http://sa.whut.edu.cn/yjspy/dsdw/201902/t20190225_353630.shtml"><strong>雷德明</strong></a>（武汉理工大学-自动化学院）</li>
+<li><a href="http://ischedulings.com/project.html"><strong>李俊青</strong></a>（聊城大学-计算机学院）</li>
+<li><a href="https://scholar.must.edu.mo/scholar/100666"><strong>高开周</strong></a>（澳门科技大学-系统工程学院）<h5 id="集成调度与车辆路径领域"><a href="#集成调度与车辆路径领域" class="headerlink" title="集成调度与车辆路径领域"></a>集成调度与车辆路径领域</h5></li>
+<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201901/t20190103_351115.shtml"><strong>杜百岗</strong></a>（武汉理工大学-机电工程学院）</li>
+<li><a href="https://bs.scu.edu.cn/gongye/201904/5178.html"><strong>王杜娟</strong></a>（四川大学-商学院）</li>
+<li><a href="http://bs.scu.edu.cn/gongye/201904/5203.html"><strong>郭钊侠</strong></a>（四川大学-商学院）</li>
+<li><a href="http://ems.whu.edu.cn/info/1718/10649.htm"><strong>王恺</strong></a>（武汉大学-经济与管理学院）</li>
+<li><a href="http://cm.hust.edu.cn/info/1745/24587.htm"><strong>秦虎</strong></a>（华中科技大学-管理学院）</li>
+<li><a href="http://cm.hust.edu.cn/info/1746/24605.htm"><strong>李昆鹏</strong></a>（华中科技大学-管理学院）</li>
+<li><a href="https://gr.xjtu.edu.cn/web/ya.liu/%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B"><strong>刘雅</strong></a>（西安交通大学-管理学院）</li>
+<li><a href="http://faculty.hfut.edu.cn/~ZNBjIb/zh_CN/index.htm"><strong>程八一</strong></a>（合肥工业大学-管理学院）</li>
 </ul>
-<hr>
-<h1 id="获奖及荣誉"><a href="#获奖及荣誉" class="headerlink" title="获奖及荣誉"></a>获奖及荣誉</h1><div class="note info">
-            <ul><li><font color="blue">2023. 11</font> “华为杯”第二十届中国研究生数学建模竞赛 —<strong>二等奖</strong><br>建模题目：大规模创新竞赛评审方案优化研究</li></ul>
+<h5 id="资源、项目调度"><a href="#资源、项目调度" class="headerlink" title="资源、项目调度"></a>资源、项目调度</h5><ul>
+<li><a href="http://202.118.1.237/sxliu/index.html"><strong>刘士新</strong></a>（东北大学-信息科学与工程学院）</li>
+<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201506/t20150602_169283.shtml"><strong>李益兵</strong></a>（武汉理工大学-机电工程学院）<h5 id="拆卸线平衡、装配线调度"><a href="#拆卸线平衡、装配线调度" class="headerlink" title="拆卸线平衡、装配线调度"></a>拆卸线平衡、装配线调度</h5></li>
+<li><a href="https://faculty.swjtu.edu.cn/zhangzeqiang/zh_CN/index/97881/list/index.htm"><strong>张则强</strong></a>（西南交通大学-机械工程学院）</li>
+<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201510/t20151014_200361.shtml"><strong>郭钧</strong></a>（武汉理工大学-机电工程学院）</li>
+</ul>
+<h3 id="进化计算"><a href="#进化计算" class="headerlink" title="进化计算"></a><p align="center"><font face="黑体" size="5" color="black">进化计算</font></p></h3><ul>
+<li><a href="https://www.egr.msu.edu/~kdeb/index.shtml"><strong>Kalyanmoy Deb</strong></a>（<a href="https://www.egr.msu.edu/~kdeb/codes.shtml">NSGA-II</a>）</li>
+<li><a href="https://www.surrey.ac.uk/people/yaochu-jin#publications"><strong>金耀初</strong></a>（西湖大学；萨里大学）</li>
+<li><a href="https://www.cs.cityu.edu.hk/~qzhan7/index.html"><strong>张青富</strong></a>（MOEA/D 香港城市大学-计算机科学系）</li>
+<li><a href="http://wky.ahu.edu.cn/2022/0301/c13481a280306/page.htm"><strong>田野</strong></a>（<a href="https://github.com/BIMK/PlatEMO">platEMO</a> 安徽大学）</li>
+<li><strong>王晗丁</strong>（西安电子科技大学）<h3 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a><p align="center"><font face="黑体" size="5" color="black">相关链接</font></p></h3></li>
+<li><a href="https://cuglirui.github.io/index.html"><strong>李瑞</strong></a> (柔性作业车间调度 <a href="https://cuglirui.github.io/downloads.htm">FJSP</a> <code>matlab</code>)</li>
+<li><strong>邓发珩</strong> (车辆路径问题 <a href="https://github.com/dengfaheng">VRP，TSP</a> <code>java</code>)</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>学术论文</title>
+    <url>/cn/publications/index.html</url>
+    <content><![CDATA[<div class="note success">
+            <h3 id="硕士学位论文"><a href="#硕士学位论文" class="headerlink" title="硕士学位论文"></a>硕士学位论文</h3><ol><li><strong>黄铭</strong>, 2023. 快速消费品制造企业生产-配送集成调度研究. 武汉理工大学.<a href="../pdf/Thesis-快速消费品制造企业生产-配送集成调度研究.pdf"> (Master’s Thesis) </a> <strong><code>PDF</code></strong>;</li></ol>
           </div>
-<div class="note info">
-            <ul><li><font color="blue">2023. 06</font> 武汉理工大学2023届优秀硕士毕业生 —<strong>个人荣誉</strong></li></ul>
-          </div>
-<div class="note info">
-            <ul><li><font color="blue">2022. 12</font> “华为杯”第十九届中国研究生数学建模竞赛 —<strong>二等奖</strong><br>建模题目：汽车制造涂装-总装缓存调序区调度优化问题</li></ul>
-          </div>
-<div class="note info">
-            <ul><li><font color="blue">2022. 06</font> 第十二届武汉理工大学研究生数学建模竞赛 —<strong>一等奖</strong><br>建模题目：基于资源受限的车辆路径问题研究</li></ul>
-          </div>
-<div class="note info">
-            <ul><li><font color="blue">2021. 12</font> “华为杯”第十八届中国研究生数学建模竞赛 —<strong>三等奖</strong><br>建模题目：航空公司机组优化排班问题</li></ul>
-          </div>
-<div class="note info">
-            <ul><li><font color="blue">2021. 01</font> “云说新科技”科普大赛 —<strong>三等奖</strong><br>参赛作品：基于 OpenCV 的智能电厂巡检小车 </li></ul>
-          </div>
-<hr>
-<h1 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h1><h2 id="基金项目"><a href="#基金项目" class="headerlink" title="基金项目"></a>基金项目</h2><div class="note warning">
-            <ol><li>武汉理工大学自主创新基金-研究生自由探索项目（个人）：<br>基于柔性分批和软时间窗约束的生产与配送集成调度研究<br><font color="blue">2022. 01-2022. 12</font>（<strong>项目负责人</strong>）</li></ol>
+<div class="note success">
+            <h3 id="发表论文"><a href="#发表论文" class="headerlink" title="发表论文"></a>发表论文</h3><ol><li><p><strong>M. Huang</strong>, S. Huang, B. Du<em>, J. Guo and Y. Li. Fuzzy Superposition Operation and Knowledge-driven Co-evolutionary Algorithm for Integrated Production Scheduling and Vehicle Routing Problem with Soft Time Windows and Fuzzy Travel Times. </em>IEEE Transactions on Fuzzy Systems<em>, 2024, doi: 10.1109/TFUZZ.2024.3388003.（中科院1区，IF 11.9，TOP）<br><a href="https://ieeexplore.ieee.org/document/10497842"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/KDCEA-Code.zip"> (KDCEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-Dateset.zip">(IPSVRP-STW&amp;FTT Dateset)</a> <strong><code>.zip</code></strong>;<a href="../zip/IPSVRP-STW-FTT-AMPL.zip"> (AMPL) </a> <strong><code>.mod</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-CASE.zip">(CASE)</a> <em>*<code>.zip</code></em></em></p></li><li><p><strong>Huang, M.</strong>, Du, B. G., Guo, J<em>. A hybrid collaborative framework for integrated production scheduling and vehicle routing problem with batch manufacturing and soft time windows. </em>Computers &amp; Operations Research<em>, 2023, 159, 106346. <a href="https://doi.org/10.1016/j.cor.2023.106346">https://doi.org/10.1016/j.cor.2023.106346</a>. (中科院2区，IF 4.6，ABS-3)<br><a href="https://www.sciencedirect.com/science/article/pii/S0305054823002101"> (Paper) </a> <strong><code>HTML</code></strong>; <a href="link"> (HCF-IMOEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-BM-STW-Dateset.zip">(IPSVRP-BM&amp;STW Dateset)</a> <em>*<code>.zip</code></em></em></p></li><li><p><strong>黄铭</strong>, 杜百岗<em>, 郭钧, 李益兵. 考虑软时间窗限制和模糊旅途时间的生产配送集成调度优化.</em>控制理论与应用<em>, 2023, 40(x): 1–10. DOI: 10.7641/CTA.2023.20920 (EI检索，IF 2.781)<br><a href="https://kns.cnki.net/kcms2/article/abstract?v=xNq_RSSxttstktCq-VWRIQS1e6fIAq26YV2DyMFsCVB9NtbxKqFgDZtEE5MiKN1dG5PLmIItcZsrbA9y-tAUQMMLpbYZJEJr4NENoL1ughgxkkSL6gjYdqp7OcHpgSim7TjKF6gvjYE=&amp;uniplatform=NZKPT&amp;language=CHS"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/NSGA-II-AVNS-Code.zip"> (NSGA-II-AVNS) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/Fuzzy-IPDS-Dateset.zip">(Fuzzy-IPDS Dateset)</a> <em>*<code>.zip</code></em></em></p></li></ol>
           </div>
 <div class="note warning">
-            <ol><li>国家自然科学基金（青年基金）：<br>面向社会化协同的复杂产品系统制造服务供需配置博弈方法<br><font color="blue">2018. 01-2020. 12 </font>（<strong>项目参与人</strong>）</li></ol>
+            <h3 id="工作论文"><a href="#工作论文" class="headerlink" title="工作论文"></a>工作论文</h3><ol><li><p><strong>黄铭</strong>, 黄思翰<em>, 陈建鹏, 董威, 王柏村, 阮兵, 高云鹏, 王国新, 阎艳.基于多目标深度强化学习的不确定扰动下岛式装配线动态调度优化 </em>机械工程学报<em>  <strong>(under review)</strong><br><a href=""> (Paper) </a><strong><code>HTML</code></strong> ; <a href=""> (MO-D3QN) </a> <strong><code>python code</code></strong> ; <a href="../zip/IAS-Dataset.zip">(IAS Dateset)</a> <em>*<code>.zip</code></em></em></p></li><li><p><strong>Ming Huang</strong>, Sihan Huang<em>, Wei Dong, Jianpeng Chen, Baicun Wang, Baigang Du, Guoxin Wang, Yan Yan. A normalized Tchebycheff aggregation based multi-objective deep reinforcement learning for dynamic flexible island assembly line scheduling. </em>ENGINEERING<em> <strong>(under review)</strong><br><a href=""> (Paper) </a><strong><code>HTML</code></strong> ; <a href=""> (NT-D3QN) </a> <strong><code>python code</code></strong> ; <a href="../zip/DFIALSP-Dataset.zip">(DFIALSP-Dataset)</a> <strong><code>.zip</code></strong> ; <a href="../zip/DFIALSP-Case.zip">(DFIALSP-Case)</a> <em>*<code>.zip</code></em></em></p></li></ol>
           </div>
-<h3 id="实习经历"><a href="#实习经历" class="headerlink" title="实习经历"></a>实习经历</h3><div class="note warning">
-            <h4 id="—-2021-07-2022-07-武汉拓行智网科技有限公司-（Java-后端开发）"><a href="#—-2021-07-2022-07-武汉拓行智网科技有限公司-（Java-后端开发）" class="headerlink" title="— 2021. 07-2022. 07 武汉拓行智网科技有限公司 （Java 后端开发）"></a>— 2021. 07-2022. 07 <a href="http://www.tonshinet.com/">武汉拓行智网科技有限公司</a> （Java 后端开发）</h4><ul><li><p><font color="blue">2021. 07-2021. 12 </font> 风机运维数字化应用平台开发</p></li><li><p><font color="blue">2022. 01-2022. 07 </font> 唐山中材重机 PMS 改进项目-外网询价管理平台开发 </p></li></ul>
+<div class="note warning">
+            <h3 id="会议论文"><a href="#会议论文" class="headerlink" title="会议论文"></a>会议论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
+          </div>]]></content>
+  </entry>
+  <entry>
+    <title>数据集和算法代码</title>
+    <url>/cn/resources/index.html</url>
+    <content><![CDATA[<h1 id="数据集"><a href="#数据集" class="headerlink" title="数据集"></a>数据集</h1><h4 id="1-生产配送集成调度-IPDS"><a href="#1-生产配送集成调度-IPDS" class="headerlink" title="1. 生产配送集成调度(IPDS)"></a>1. 生产配送集成调度(IPDS)</h4><div class="note info">
+            <ul><li><strong>IPSVRP-BM&amp;STW Dateset（<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（节拍生产线 &amp; 带异构车辆和软时间窗的车辆路径问题）<br>数据集下载：<a href="../zip/IPSVRP-BM-STW-Dateset.zip">IPSVRP-BM&amp;STW Dateset</a><br><a href="../pdf/A%20hybrid%20collaborative%20framework%20for%20integrated%20production%20scheduling%20and%20vehicle%20routing%20problem%20with%20batch%20manufacturing%20and%20soft%20time%20windows.pdf">此文章</a> 提出该数据集<br><a href="link">一个博客</a> 介绍该数据集的形成过程</li></ul>
           </div>
-<p><a href="https://clustrmaps.com/site/1bqdf" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=555555&amp;w=500&amp;t=m&amp;d=lPGunm_IA1w4rADFSr_XZ_r1KQCj0GoM-18qXvbMs1E&amp;co=ffffff&amp;ct=555555"></a></p>
-</div>]]></content>
+<div class="note info">
+            <ul><li><strong>Fuzzy-IPDS Dateset（<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（节拍生产线 &amp; 带异构车辆和软时间窗的车辆路径问题 &amp; 模糊旅途时间）<br>数据集下载：<a href="../zip/Fuzzy-IPDS-Dateset.zip">Fuzzy-IPDS Dateset</a><br><a href="link">此文章</a> 提出该数据集<br><a href="link">一个博客</a> 介绍该数据集的形成过程</li></ul>
+          </div>
+<div class="note info">
+            <ul><li><strong>IPSVRP-STW&amp;FTT Dateset（<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（节拍生产线 &amp; 软时间窗 &amp; 数量受限的多行程异构车辆 &amp; 模糊旅途时间）<br>数据集下载：<a href="../zip/IPSVRP-STW-FTT-Dateset.zip">IPSVRP-STW&amp;FTT Dateset</a><br><a href="link">此文章</a> 提出该数据集<br><a href="link">一个博客</a> 介绍该数据集的形成过程</li></ul>
+          </div>
+<p><font color="#428BCA" size="5"><strong>初衷</strong></font>:<br>IPDS问题涉及生产和配送两个阶段的优化。单独来说，生产调度或配送调度的科学研究时间较长，有丰富的基准案例数据集以及优秀的求解算法。<strong>然而，生产与配送集成调度的研究却在基准案例数据集这方面显得相对匮乏</strong>。出于对该问题的复杂性和特殊性的考虑，大部分研究采用随机生成（或部分随即生成）测试实例的方式进行数值实验，但很少有研究将其测试数据集公布出来以供其他研究者使用和验证。为了给相同或者相近的研究提供统一评价对比和度量的基准，我们将所使用的数据集进行公布，以供其他研究者使用，从而方便其进行数值实验对比工作。</p>
+<h4 id="2-其他研究者提供的数据集"><a href="#2-其他研究者提供的数据集" class="headerlink" title="2. 其他研究者提供的数据集"></a>2. 其他研究者提供的数据集</h4><ul>
+<li><p>VRPTW 数据集: <strong><a href="https://www.sintef.no/projectweb/top/vrptw/">Solomon-Benchmark</a></strong></p>
+</li>
+<li><p>VRP 数据集: <strong><a href="https://neo.lcc.uma.es/vrp/vrp-instances/">Vrp-Instances</a></strong></p>
+</li>
+<li><p>基于问题实例的测试数据集: <strong><a href="http://people.brunel.ac.uk/~mastjjb/jeb/info.html">OR-Library by J E Beasley</a></strong></p>
+</li>
+</ul>
+<hr>
+<h1 id="算法代码"><a href="#算法代码" class="headerlink" title="算法代码"></a>算法代码</h1><div class="note info">
+            <ol><li><a href="link"> HCF-IMOEA </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于   <a href="https://www.sciencedirect.com/science/article/pii/S0305054823002101">此文章</a> <strong><code>HTML</code></strong></li></ol>
+          </div>
+<div class="note info">
+            <ol><li><a href="../zip/NSGA-II-AVNS-Code.zip"> NSGA-II-AVNS </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于    <a href="https://kns.cnki.net/kcms2/article/abstract?v=xNq_RSSxttstktCq-VWRIQS1e6fIAq26YV2DyMFsCVB9NtbxKqFgDZtEE5MiKN1dG5PLmIItcZsrbA9y-tAUQMMLpbYZJEJr4NENoL1ughgxkkSL6gjYdqp7OcHpgSim7TjKF6gvjYE=&amp;uniplatform=NZKPT&amp;language=CHS">此文章</a><strong><code>HTML</code></strong></li></ol>
+          </div>
+<div class="note info">
+            <ol><li><a href="../zip/KDCEA-Code.zip"> KDCEA </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于    <a href="https://ieeexplore.ieee.org/document/10497842">此文章</a> <strong><code>HTML</code></strong></li></ol>
+          </div>]]></content>
   </entry>
   <entry>
     <title>欢迎来到我的学术主页</title>
@@ -1212,90 +1211,91 @@ table th:nth-of-type(2) {
 </div>]]></content>
   </entry>
   <entry>
-    <title>领域学者</title>
-    <url>/cn/link/index.html</url>
-    <content><![CDATA[<h3 id="智能制造-与-运筹优化"><a href="#智能制造-与-运筹优化" class="headerlink" title="智能制造 与 运筹优化"></a><p align="center"><font face="黑体" size="5" color="black">智能制造 与 运筹优化</font></p></h3><h5 id="数字孪生"><a href="#数字孪生" class="headerlink" title="数字孪生"></a>数字孪生</h5><ul>
-<li><a href="https://www.kth.se/profile/lihuiw/"><strong>王力翚</strong></a>（瑞典皇家理工学院(KTH)可持续生产系统-加拿大工程院院士）</li>
-<li><a href="https://shi.buaa.edu.cn/taofei/zh_CN/index.htm"><strong>陶飞</strong></a>（北京航空航天大学-科学技术研究院）</li>
-<li><a href="https://me.bit.edu.cn/szdw/jsml/zzgcx/gygcyjs/sssds13/13ddf65bcbdf4f5c83acd440457ee9de.htm"><strong>黄思翰</strong></a>（北京理工大学 - 机械与车辆学院）</li>
-<li><a href="https://person.zju.edu.cn/baicun#949984"><strong>王柏村</strong></a>（浙江大学 - 机械工程学院）<h5 id="车间调度领域"><a href="#车间调度领域" class="headerlink" title="车间调度领域"></a>车间调度领域</h5></li>
-<li><a href="https://www.au.tsinghua.edu.cn/info/1107/1558.htm"><strong>王凌</strong></a>（清华大学-自动化学院）</li>
-<li><a href="http://mse.hust.edu.cn/info/1143/1387.htm"><strong>高亮</strong></a>（华中科技大学-机械学院）</li>
-<li><a href="http://sa.whut.edu.cn/yjspy/dsdw/201902/t20190225_353630.shtml"><strong>雷德明</strong></a>（武汉理工大学-自动化学院）</li>
-<li><a href="http://ischedulings.com/project.html"><strong>李俊青</strong></a>（聊城大学-计算机学院）</li>
-<li><a href="https://scholar.must.edu.mo/scholar/100666"><strong>高开周</strong></a>（澳门科技大学-系统工程学院）<h5 id="集成调度与车辆路径领域"><a href="#集成调度与车辆路径领域" class="headerlink" title="集成调度与车辆路径领域"></a>集成调度与车辆路径领域</h5></li>
-<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201901/t20190103_351115.shtml"><strong>杜百岗</strong></a>（武汉理工大学-机电工程学院）</li>
-<li><a href="https://bs.scu.edu.cn/gongye/201904/5178.html"><strong>王杜娟</strong></a>（四川大学-商学院）</li>
-<li><a href="http://bs.scu.edu.cn/gongye/201904/5203.html"><strong>郭钊侠</strong></a>（四川大学-商学院）</li>
-<li><a href="http://ems.whu.edu.cn/info/1718/10649.htm"><strong>王恺</strong></a>（武汉大学-经济与管理学院）</li>
-<li><a href="http://cm.hust.edu.cn/info/1745/24587.htm"><strong>秦虎</strong></a>（华中科技大学-管理学院）</li>
-<li><a href="http://cm.hust.edu.cn/info/1746/24605.htm"><strong>李昆鹏</strong></a>（华中科技大学-管理学院）</li>
-<li><a href="https://gr.xjtu.edu.cn/web/ya.liu/%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B"><strong>刘雅</strong></a>（西安交通大学-管理学院）</li>
-<li><a href="http://faculty.hfut.edu.cn/~ZNBjIb/zh_CN/index.htm"><strong>程八一</strong></a>（合肥工业大学-管理学院）</li>
-</ul>
-<h5 id="资源、项目调度"><a href="#资源、项目调度" class="headerlink" title="资源、项目调度"></a>资源、项目调度</h5><ul>
-<li><a href="http://202.118.1.237/sxliu/index.html"><strong>刘士新</strong></a>（东北大学-信息科学与工程学院）</li>
-<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201506/t20150602_169283.shtml"><strong>李益兵</strong></a>（武汉理工大学-机电工程学院）<h5 id="拆卸线平衡、装配线调度"><a href="#拆卸线平衡、装配线调度" class="headerlink" title="拆卸线平衡、装配线调度"></a>拆卸线平衡、装配线调度</h5></li>
-<li><a href="https://faculty.swjtu.edu.cn/zhangzeqiang/zh_CN/index/97881/list/index.htm"><strong>张则强</strong></a>（西南交通大学-机械工程学院）</li>
-<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201510/t20151014_200361.shtml"><strong>郭钧</strong></a>（武汉理工大学-机电工程学院）</li>
-</ul>
-<h3 id="进化计算"><a href="#进化计算" class="headerlink" title="进化计算"></a><p align="center"><font face="黑体" size="5" color="black">进化计算</font></p></h3><ul>
-<li><a href="https://www.egr.msu.edu/~kdeb/index.shtml"><strong>Kalyanmoy Deb</strong></a>（<a href="https://www.egr.msu.edu/~kdeb/codes.shtml">NSGA-II</a>）</li>
-<li><a href="https://www.surrey.ac.uk/people/yaochu-jin#publications"><strong>金耀初</strong></a>（西湖大学；萨里大学）</li>
-<li><a href="https://www.cs.cityu.edu.hk/~qzhan7/index.html"><strong>张青富</strong></a>（MOEA/D 香港城市大学-计算机科学系）</li>
-<li><a href="http://wky.ahu.edu.cn/2022/0301/c13481a280306/page.htm"><strong>田野</strong></a>（<a href="https://github.com/BIMK/PlatEMO">platEMO</a> 安徽大学）</li>
-<li><strong>王晗丁</strong>（西安电子科技大学）<h3 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a><p align="center"><font face="黑体" size="5" color="black">相关链接</font></p></h3></li>
-<li><a href="https://cuglirui.github.io/index.html"><strong>李瑞</strong></a> (柔性作业车间调度 <a href="https://cuglirui.github.io/downloads.htm">FJSP</a> <code>matlab</code>)</li>
-<li><strong>邓发珩</strong> (车辆路径问题 <a href="https://github.com/dengfaheng">VRP，TSP</a> <code>java</code>)</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>学术论文</title>
-    <url>/cn/publications/index.html</url>
-    <content><![CDATA[<div class="note success">
-            <h3 id="硕士学位论文"><a href="#硕士学位论文" class="headerlink" title="硕士学位论文"></a>硕士学位论文</h3><ol><li><strong>黄铭</strong>, 2023. 快速消费品制造企业生产-配送集成调度研究. 武汉理工大学.<a href="../pdf/Thesis-快速消费品制造企业生产-配送集成调度研究.pdf"> (Master’s Thesis) </a> <strong><code>PDF</code></strong>;</li></ol>
+    <title>欢迎来到我的学术主页</title>
+    <url>/cn/home/index.html</url>
+    <content><![CDATA[<h1 id="最新消息-boom"><a href="#最新消息-boom" class="headerlink" title="最新消息(:boom:)"></a>最新消息(<span class="github-emoji"><span>💥</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a5.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>)</h1><div class="note danger">
+            <ul><li><font color="blue">2024. 04</font> — 发表论文在IEEE 模糊系统期刊上.<br><font size="3"> <b>论文索引 : M. Huang</b> , S. Huang, B. Du*, J. Guo and Y. Li, 2024. Fuzzy Superposition Operation and Knowledge-driven Co-evolutionary Algorithm for Integrated Production Scheduling and Vehicle Routing Problem with Soft Time Windows and Fuzzy Travel Times. <em>IEEE Transactions on Fuzzy Systems</em>, doi: 10.1109/TFUZZ.2024.3388003. <a href="https://doi.org/10.1016/j.cor.2023.106346">https://doi.org/10.1016/j.cor.2023.106346</a> (中科院1区，IF 11.9, TOP) </font><br><a href="https://ieeexplore.ieee.org/document/10497842"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/KDCEA-Code.zip"> (KDCEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-Dateset.zip">(IPSVRP-STW&amp;FTT Dateset)</a> <strong><code>.zip</code></strong>;<a href="../zip/IPSVRP-STW-FTT-AMPL.zip"> (AMPL) </a> <strong><code>.mod</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-CASE.zip">(CASE)</a> <strong><code>.zip</code></strong></li></ul>
           </div>
-<div class="note success">
-            <h3 id="发表论文"><a href="#发表论文" class="headerlink" title="发表论文"></a>发表论文</h3><ol><li><p><strong>M. Huang</strong>, S. Huang, B. Du<em>, J. Guo and Y. Li. Fuzzy Superposition Operation and Knowledge-driven Co-evolutionary Algorithm for Integrated Production Scheduling and Vehicle Routing Problem with Soft Time Windows and Fuzzy Travel Times. </em>IEEE Transactions on Fuzzy Systems<em>, 2024, doi: 10.1109/TFUZZ.2024.3388003.（中科院1区，IF 11.9，TOP）<br><a href="https://ieeexplore.ieee.org/document/10497842"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/KDCEA-Code.zip"> (KDCEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-Dateset.zip">(IPSVRP-STW&amp;FTT Dateset)</a> <strong><code>.zip</code></strong>;<a href="../zip/IPSVRP-STW-FTT-AMPL.zip"> (AMPL) </a> <strong><code>.mod</code></strong> ; <a href="../zip/IPSVRP-STW-FTT-CASE.zip">(CASE)</a> <em>*<code>.zip</code></em></em></p></li><li><p><strong>Huang, M.</strong>, Du, B. G., Guo, J<em>. A hybrid collaborative framework for integrated production scheduling and vehicle routing problem with batch manufacturing and soft time windows. </em>Computers &amp; Operations Research<em>, 2023, 159, 106346. <a href="https://doi.org/10.1016/j.cor.2023.106346">https://doi.org/10.1016/j.cor.2023.106346</a>. (中科院2区，IF 4.6，ABS-3)<br><a href="https://www.sciencedirect.com/science/article/pii/S0305054823002101"> (Paper) </a> <strong><code>HTML</code></strong>; <a href="link"> (HCF-IMOEA) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/IPSVRP-BM-STW-Dateset.zip">(IPSVRP-BM&amp;STW Dateset)</a> <em>*<code>.zip</code></em></em></p></li><li><p><strong>黄铭</strong>, 杜百岗<em>, 郭钧, 李益兵. 考虑软时间窗限制和模糊旅途时间的生产配送集成调度优化.</em>控制理论与应用<em>, 2023, 40(x): 1–10. DOI: 10.7641/CTA.2023.20920 (EI检索，IF 2.781)<br><a href="https://kns.cnki.net/kcms2/article/abstract?v=xNq_RSSxttstktCq-VWRIQS1e6fIAq26YV2DyMFsCVB9NtbxKqFgDZtEE5MiKN1dG5PLmIItcZsrbA9y-tAUQMMLpbYZJEJr4NENoL1ughgxkkSL6gjYdqp7OcHpgSim7TjKF6gvjYE=&amp;uniplatform=NZKPT&amp;language=CHS"> (Paper) </a> <strong><code>HTML</code></strong> ; <a href="../zip/NSGA-II-AVNS-Code.zip"> (NSGA-II-AVNS) </a> <strong><code>Matlab code</code></strong> ; <a href="../zip/Fuzzy-IPDS-Dateset.zip">(Fuzzy-IPDS Dateset)</a> <em>*<code>.zip</code></em></em></p></li></ol>
+<div class="note danger">
+            <ul><li><font color="blue">2023. 11</font> “华为杯”第二十届中国研究生数学建模竞赛 —<strong>二等奖</strong><br>建模题目：大规模创新竞赛评审方案优化研究</li></ul>
           </div>
-<div class="note warning">
-            <h3 id="工作论文"><a href="#工作论文" class="headerlink" title="工作论文"></a>工作论文</h3><ol><li><strong>黄铭</strong>, 黄思翰<em>, 陈建鹏, 董威, 王柏村, 阮兵, 高云鹏, 王国新, 阎艳.基于多目标深度强化学习的不确定扰动下岛式装配线动态调度优化 </em>机械工程学报<em>  <strong>(under review)</strong><br><a href=""> (Paper) </a><strong><code>HTML</code></strong> ; <a href=""> (MO-D3QN) </a> <strong><code>python code</code></strong> ; <a href="../zip/IAS-Dataset.zip">(IAS Dateset)</a> <em>*<code>.zip</code></em></em></li></ol>
-          </div>
-<div class="note warning">
-            <h3 id="会议论文"><a href="#会议论文" class="headerlink" title="会议论文"></a>会议论文</h3><p align="left"><font face="黑体" size="5" color="blue"></font></p><li><font face="黑体" size="5" color="blue">None </font></li><p></p>
-          </div>]]></content>
-  </entry>
-  <entry>
-    <title>数据集和算法代码</title>
-    <url>/cn/resources/index.html</url>
-    <content><![CDATA[<h1 id="数据集"><a href="#数据集" class="headerlink" title="数据集"></a>数据集</h1><h4 id="1-生产配送集成调度-IPDS"><a href="#1-生产配送集成调度-IPDS" class="headerlink" title="1. 生产配送集成调度(IPDS)"></a>1. 生产配送集成调度(IPDS)</h4><div class="note info">
-            <ul><li><strong>IPSVRP-BM&amp;STW Dateset（<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（节拍生产线 &amp; 带异构车辆和软时间窗的车辆路径问题）<br>数据集下载：<a href="../zip/IPSVRP-BM-STW-Dateset.zip">IPSVRP-BM&amp;STW Dateset</a><br><a href="../pdf/A%20hybrid%20collaborative%20framework%20for%20integrated%20production%20scheduling%20and%20vehicle%20routing%20problem%20with%20batch%20manufacturing%20and%20soft%20time%20windows.pdf">此文章</a> 提出该数据集<br><a href="link">一个博客</a> 介绍该数据集的形成过程</li></ul>
-          </div>
-<div class="note info">
-            <ul><li><strong>Fuzzy-IPDS Dateset（<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（节拍生产线 &amp; 带异构车辆和软时间窗的车辆路径问题 &amp; 模糊旅途时间）<br>数据集下载：<a href="../zip/Fuzzy-IPDS-Dateset.zip">Fuzzy-IPDS Dateset</a><br><a href="link">此文章</a> 提出该数据集<br><a href="link">一个博客</a> 介绍该数据集的形成过程</li></ul>
-          </div>
-<div class="note info">
-            <ul><li><strong>IPSVRP-STW&amp;FTT Dateset（<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）</strong><br>（节拍生产线 &amp; 软时间窗 &amp; 数量受限的多行程异构车辆 &amp; 模糊旅途时间）<br>数据集下载：<a href="../zip/IPSVRP-STW-FTT-Dateset.zip">IPSVRP-STW&amp;FTT Dateset</a><br><a href="link">此文章</a> 提出该数据集<br><a href="link">一个博客</a> 介绍该数据集的形成过程</li></ul>
-          </div>
-<p><font color="#428BCA" size="5"><strong>初衷</strong></font>:<br>IPDS问题涉及生产和配送两个阶段的优化。单独来说，生产调度或配送调度的科学研究时间较长，有丰富的基准案例数据集以及优秀的求解算法。<strong>然而，生产与配送集成调度的研究却在基准案例数据集这方面显得相对匮乏</strong>。出于对该问题的复杂性和特殊性的考虑，大部分研究采用随机生成（或部分随即生成）测试实例的方式进行数值实验，但很少有研究将其测试数据集公布出来以供其他研究者使用和验证。为了给相同或者相近的研究提供统一评价对比和度量的基准，我们将所使用的数据集进行公布，以供其他研究者使用，从而方便其进行数值实验对比工作。</p>
-<h4 id="2-其他研究者提供的数据集"><a href="#2-其他研究者提供的数据集" class="headerlink" title="2. 其他研究者提供的数据集"></a>2. 其他研究者提供的数据集</h4><ul>
-<li><p>VRPTW 数据集: <strong><a href="https://www.sintef.no/projectweb/top/vrptw/">Solomon-Benchmark</a></strong></p>
-</li>
-<li><p>VRP 数据集: <strong><a href="https://neo.lcc.uma.es/vrp/vrp-instances/">Vrp-Instances</a></strong></p>
-</li>
-<li><p>基于问题实例的测试数据集: <strong><a href="http://people.brunel.ac.uk/~mastjjb/jeb/info.html">OR-Library by J E Beasley</a></strong></p>
-</li>
+<hr>
+<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p><strong>黄铭</strong>，男，1999年出生于河北省邢台市。目前在北京理工大学-机械与车辆学院攻读机械工程博士学位。<br>如有任何问题，可以与我联系 E-mail（ <span class="github-emoji"><span>✉</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2709.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> ）： huangming @bit.edu.cn.<br>地址：北京市海淀区中关村南大街5号 北京理工大学 100081 .<br><!-- 让表格居中显示的风格 --></p>
+<style>
+.center 
+{
+  display: table;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+table th:first-of-type {
+    width: 460pt;
+}
+table th:nth-of-type(2) {
+    width: 600pt;
+}
+</style>
+
+<div class="center">
+
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><span class="github-emoji"><span>🔍</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>   研究兴趣</th>
+<th style="text-align:left"><span class="github-emoji"><span>🎓</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>   教育背景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><li> <b>深度强化学习、进化计算</b> </li><li> <b>机器人集群调度</b> </li><li> <b>人机协作优化</b> </li><li>多阶段集成调度</li><li>复杂系统建模与优化</li><li>动态多目标优化</li></td>
+<td style="text-align:left"><li><b>2023. 09 - 2027. 07 北京理工大学 机械工程 博士学位</b></li><li>2020. 09 - 2023. 07 武汉理工大学 工业工程 硕士学位</li><li>2016. 09 - 2020. 07 河北大学 质量管理工程 学士学位</li><li>2013. 09 - 2016. 07 河北省邢台市第一中学 高中  </li></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=""><a href="#" class="headerlink" title=""></a><div class="tabs" id="yearlist"><ul class="nav-tabs"><li class="tab"><a href="#yearlist-1">2023 年度计划清单 <span class="github-emoji"><span>📋</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cb.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></a></li><li class="tab active"><a href="#yearlist-2">2024 年度计划清单 <span class="github-emoji"><span>📋</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cb.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></a></li></ul><div class="tab-content"><div class="tab-pane" id="yearlist-1"><p><strong>2023 To Do list <span class="github-emoji"><span>🎯</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3af.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></strong><br><span class="github-emoji"><span>✔</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> 通过博士申请-考核<br><span class="github-emoji"><span>✔</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> 获得硕士学位<br><span class="github-emoji"><span>➖</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> 录用至少3篇论文（Progress: 2/3）<br><span class="github-emoji"><span>✖</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2716.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> 提高英语听力水平<br><span class="github-emoji"><span>✔</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> 控制体重在110-120斤之间<br><span class="github-emoji"><span>➖</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> 攒钱，准备植发不想做秃顶男孩。<br><strong><em>寄语: 人的一生中有很多事情值得一做，最重要的是去做。<span class="github-emoji"><span>🏃</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c3.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></em></strong></p></div><div class="tab-pane active" id="yearlist-2"><!--**2024 To Do list :dart:**
+:black_square_button: 录用至少3篇论文 :memo:（Progress: 1/3）
+:black_square_button: 读完3文学类小说 :books:（Progress: 0/3）
+:black_square_button: 提高自己的英语听力和交流水平 :earth_americas: 
+:black_square_button: 控制体重在55-60 Kg，保护好腹肌！ :muscle:
+:black_square_button: 5 公里配速进入5 min :running:
+:black_square_button: 攒3万元钱，想办法经济独立！ :moneybag:
+***Words I Wanted To Say：人生的目标不应该是成功和名利，而是真正做到以自己想要的方式度过一生 :low_brightness:***--></div></div></div></h2><h1 id="我的导师"><a href="#我的导师" class="headerlink" title="我的导师"></a>我的导师</h1><ul>
+<li><a href="https://me.bit.edu.cn/szdw/jsml/zzgcx/gygcyjs/sssds13/13ddf65bcbdf4f5c83acd440457ee9de.htm"><strong>黄思翰</strong></a> 副教授（我的博士导师）<br><br></li>
+<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201901/t20190103_351115.shtml"><strong>杜百岗</strong></a> 副教授（我的硕士导师）<br><br></li>
+<li><a href="http://smee.whut.edu.cn/rsgz/szdw/201510/t20151014_200361.shtml"><strong>郭钧</strong></a> 副教授（我的硕士第二导师）</li>
 </ul>
 <hr>
-<h1 id="算法代码"><a href="#算法代码" class="headerlink" title="算法代码"></a>算法代码</h1><div class="note info">
-            <ol><li><a href="link"> HCF-IMOEA </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于   <a href="https://www.sciencedirect.com/science/article/pii/S0305054823002101">此文章</a> <strong><code>HTML</code></strong></li></ol>
+<h1 id="获奖及荣誉"><a href="#获奖及荣誉" class="headerlink" title="获奖及荣誉"></a>获奖及荣誉</h1><div class="note info">
+            <ul><li><font color="blue">2023. 11</font> “华为杯”第二十届中国研究生数学建模竞赛 —<strong>二等奖</strong><br>建模题目：大规模创新竞赛评审方案优化研究</li></ul>
           </div>
 <div class="note info">
-            <ol><li><a href="../zip/NSGA-II-AVNS-Code.zip"> NSGA-II-AVNS </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于    <a href="https://kns.cnki.net/kcms2/article/abstract?v=xNq_RSSxttstktCq-VWRIQS1e6fIAq26YV2DyMFsCVB9NtbxKqFgDZtEE5MiKN1dG5PLmIItcZsrbA9y-tAUQMMLpbYZJEJr4NENoL1ughgxkkSL6gjYdqp7OcHpgSim7TjKF6gvjYE=&amp;uniplatform=NZKPT&amp;language=CHS">此文章</a><strong><code>HTML</code></strong></li></ol>
+            <ul><li><font color="blue">2023. 06</font> 武汉理工大学2023届优秀硕士毕业生 —<strong>个人荣誉</strong></li></ul>
           </div>
 <div class="note info">
-            <ol><li><a href="../zip/KDCEA-Code.zip"> KDCEA </a> <strong><code>Matlab code</code></strong> （<span class="github-emoji"><span>🌟</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>）<br>该算法出自于    <a href="https://ieeexplore.ieee.org/document/10497842">此文章</a> <strong><code>HTML</code></strong></li></ol>
-          </div>]]></content>
+            <ul><li><font color="blue">2022. 12</font> “华为杯”第十九届中国研究生数学建模竞赛 —<strong>二等奖</strong><br>建模题目：汽车制造涂装-总装缓存调序区调度优化问题</li></ul>
+          </div>
+<div class="note info">
+            <ul><li><font color="blue">2022. 06</font> 第十二届武汉理工大学研究生数学建模竞赛 —<strong>一等奖</strong><br>建模题目：基于资源受限的车辆路径问题研究</li></ul>
+          </div>
+<div class="note info">
+            <ul><li><font color="blue">2021. 12</font> “华为杯”第十八届中国研究生数学建模竞赛 —<strong>三等奖</strong><br>建模题目：航空公司机组优化排班问题</li></ul>
+          </div>
+<div class="note info">
+            <ul><li><font color="blue">2021. 01</font> “云说新科技”科普大赛 —<strong>三等奖</strong><br>参赛作品：基于 OpenCV 的智能电厂巡检小车 </li></ul>
+          </div>
+<hr>
+<h1 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h1><h2 id="基金项目"><a href="#基金项目" class="headerlink" title="基金项目"></a>基金项目</h2><div class="note warning">
+            <ol><li>武汉理工大学自主创新基金-研究生自由探索项目（个人）：<br>基于柔性分批和软时间窗约束的生产与配送集成调度研究<br><font color="blue">2022. 01-2022. 12</font>（<strong>项目负责人</strong>）</li></ol>
+          </div>
+<div class="note warning">
+            <ol><li>国家自然科学基金（青年基金）：<br>面向社会化协同的复杂产品系统制造服务供需配置博弈方法<br><font color="blue">2018. 01-2020. 12 </font>（<strong>项目参与人</strong>）</li></ol>
+          </div>
+<h3 id="实习经历"><a href="#实习经历" class="headerlink" title="实习经历"></a>实习经历</h3><div class="note warning">
+            <h4 id="—-2021-07-2022-07-武汉拓行智网科技有限公司-（Java-后端开发）"><a href="#—-2021-07-2022-07-武汉拓行智网科技有限公司-（Java-后端开发）" class="headerlink" title="— 2021. 07-2022. 07 武汉拓行智网科技有限公司 （Java 后端开发）"></a>— 2021. 07-2022. 07 <a href="http://www.tonshinet.com/">武汉拓行智网科技有限公司</a> （Java 后端开发）</h4><ul><li><p><font color="blue">2021. 07-2021. 12 </font> 风机运维数字化应用平台开发</p></li><li><p><font color="blue">2022. 01-2022. 07 </font> 唐山中材重机 PMS 改进项目-外网询价管理平台开发 </p></li></ul>
+          </div>
+<p><a href="https://clustrmaps.com/site/1bqdf" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=555555&amp;w=500&amp;t=m&amp;d=lPGunm_IA1w4rADFSr_XZ_r1KQCj0GoM-18qXvbMs1E&amp;co=ffffff&amp;ct=555555"></a></p>
+</div>]]></content>
   </entry>
 </search>
